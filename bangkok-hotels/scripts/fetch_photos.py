@@ -184,6 +184,9 @@ def score_title(text, hotel):
     tl = text.lower()
     toks = distinctive_tokens(hotel)
     hits = sum(1 for w in toks if re.search(r"\b" + re.escape(w) + r"\b", tl))
+    for phrase in hotel.get("photoTerms") or []:
+        if phrase.lower() in tl:
+            hits += 2
     full = re.sub(r"[^a-z0-9 ]+", " ", hotel["name"].lower()).split()
     full = " ".join(w for w in full if w not in {"the", "a"})
     if full and full in re.sub(r"[^a-z0-9 ]+", " ", tl):
@@ -274,7 +277,7 @@ def collect_candidates(hotel):
                 c["score"] += 2
             add(c)
 
-    for q in hotel.get("search") or [hotel["name"]]:
+    for q in list(hotel.get("photoTerms") or []) + list(hotel.get("search") or [hotel["name"]]):
         for p in commons_search(f'"{q}"', limit=10) + commons_search(f"{q} Bangkok", limit=8):
             add(candidate_from_page(p, hotel, "commons-search"))
 

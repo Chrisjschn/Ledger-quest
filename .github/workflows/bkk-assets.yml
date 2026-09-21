@@ -1,7 +1,9 @@
 name: Bangkok hotels · generated assets
 
 # Fetches things the tracker needs from the open internet (OpenStreetMap base map,
-# freely licensed hotel photos, geodata cross-checks) and commits them to the branch.
+# freely licensed hotel photo candidates, geodata cross-checks). Run it from the
+# Actions tab; it commits the small generated files and uploads photo candidates
+# as a workflow artifact for review.
 on:
   workflow_dispatch:
     inputs:
@@ -20,12 +22,11 @@ on:
       max_cands:
         description: Photo candidates per hotel
         type: string
-        default: "3"
-  push:
-    branches: [claude/bangkok-hotel-tracker-ttodyh]
-    paths:
-      - bangkok-hotels/scripts/**
-      - .github/workflows/bkk-assets.yml
+        default: "5"
+      commit_candidates:
+        description: Also commit the candidate photos to the branch (otherwise artifact only)
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -58,17 +59,28 @@ jobs:
           python -m pip install --quiet requests pillow
 
       - name: Build OpenStreetMap base map
-        if: ${{ github.event_name == 'push' || inputs.basemap }}
+        if: ${{ inputs.basemap }}
         working-directory: bangkok-hotels/scripts
         run: node build_basemap.mjs
 
       - name: Fetch photo candidates and geo checks
-        if: ${{ github.event_name == 'push' || inputs.photos }}
+        if: ${{ inputs.photos }}
         working-directory: bangkok-hotels/scripts
         env:
           ONLY_HOTELS: ${{ inputs.only }}
-          MAX_CANDS: ${{ inputs.max_cands || '3' }}
+          MAX_CANDS: ${{ inputs.max_cands || '5' }}
         run: python fetch_photos.py
+
+      - name: Upload photo candidates
+        if: ${{ inputs.photos }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: photo-candidates
+          path: |
+            bangkok-hotels/photos/candidates/
+            bangkok-hotels/photos/candidates.json
+          if-no-files-found: ignore
+          retention-days: 14
 
       - name: Bundle data files
         working-directory: bangkok-hotels/scripts
@@ -78,7 +90,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A bangkok-hotels/data bangkok-hotels/photos
+          git add -A bangkok-hotels/data bangkok-hotels/photos/candidates.json
+          if [ "${{ inputs.commit_candidates }}" = "true" ]; then git add -A bangkok-hotels/photos/candidates; fi
           if git diff --cached --quiet; then
             echo "Nothing changed."
             exit 0

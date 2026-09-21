@@ -74,7 +74,11 @@
     "Four Seasons Bangkok"
    ],
    "transit": "BTS Saphan Taksin + shuttle boat",
-   "notes": "Jean-Michel Gathy urban resort with tiered water courtyards; Yu Ting Yuan (Michelin star). Added to FHR in 2025."
+   "notes": "Jean-Michel Gathy urban resort with tiered water courtyards; Yu Ting Yuan (Michelin star). Added to FHR in 2025.",
+   "photoTerms": [
+    "Four Seasons Hotel Bangkok at Chao Phraya River",
+    "Chao Phraya Estate"
+   ]
   },
   {
    "id": "capella",
@@ -94,7 +98,11 @@
     "Capella Bangkok"
    ],
    "transit": "BTS Saphan Taksin + shuttle boat",
-   "notes": "All suites and villas, every one river-facing; Côte by Mauro Colagreco. World's 50 Best Hotels #1 (2024)."
+   "notes": "All suites and villas, every one river-facing; Côte by Mauro Colagreco. World's 50 Best Hotels #1 (2024).",
+   "photoTerms": [
+    "Capella Bangkok",
+    "Chao Phraya Estate"
+   ]
   },
   {
    "id": "the-siam",
@@ -117,7 +125,11 @@
     "The Siam hotel Bangkok Dusit"
    ],
    "transit": "Hotel boat to Saphan Taksin; far from BTS",
-   "notes": "Bill Bensley art-deco riverside retreat, 39 suites and pool villas, in the old royal district."
+   "notes": "Bill Bensley art-deco riverside retreat, 39 suites and pool villas, in the old royal district.",
+   "photoTerms": [
+    "The Siam Hotel Bangkok",
+    "The Siam Dusit"
+   ]
   },
   {
    "id": "park-hyatt",
@@ -138,7 +150,10 @@
     "Central Embassy Bangkok"
    ],
    "transit": "BTS Phloen Chit · 2 min",
-   "notes": "Atop Central Embassy; Penthouse Bar + Grill, 34th-floor pool. Card Member Favorite."
+   "notes": "Atop Central Embassy; Penthouse Bar + Grill, 34th-floor pool. Card Member Favorite.",
+   "photoTerms": [
+    "Central Embassy"
+   ]
   },
   {
    "id": "rosewood",
@@ -226,7 +241,11 @@
     "St. Regis Bangkok"
    ],
    "transit": "BTS Ratchadamri · skybridge",
-   "notes": "Butler service, views over the Royal Bangkok Sports Club racecourse."
+   "notes": "Butler service, views over the Royal Bangkok Sports Club racecourse.",
+   "photoTerms": [
+    "St. Regis Bangkok",
+    "St Regis Bangkok"
+   ]
   },
   {
    "id": "siam-kempinski",
@@ -318,7 +337,10 @@
     "Nai Lert Park Bangkok"
    ],
    "transit": "BTS Phloen Chit · 5 min",
-   "notes": "Opened 2025 inside the century-old Nai Lert Park; 52 suites."
+   "notes": "Opened 2025 inside the century-old Nai Lert Park; 52 suites.",
+   "photoTerms": [
+    "Aman Nai Lert"
+   ]
   },
   {
    "id": "ritz-carlton",
@@ -342,7 +364,11 @@
     "One Bangkok"
    ],
    "transit": "MRT Lumphini · direct",
-   "notes": "Opened Dec 2024 in One Bangkok, facing Lumphini Park; 259 rooms."
+   "notes": "Opened Dec 2024 in One Bangkok, facing Lumphini Park; 259 rooms.",
+   "photoTerms": [
+    "One Bangkok",
+    "Ritz-Carlton Bangkok"
+   ]
   },
   {
    "id": "dusit-thani",
@@ -362,7 +388,12 @@
     "Dusit Thani Bangkok"
    ],
    "transit": "BTS Sala Daeng / MRT Si Lom · direct",
-   "notes": "Rebuilt and reopened Sept 2024; all 257 rooms look over Lumphini Park."
+   "notes": "Rebuilt and reopened Sept 2024; all 257 rooms look over Lumphini Park.",
+   "photoTerms": [
+    "Dusit Central Park",
+    "Dusit Thani Bangkok 2024",
+    "Dusit Thani Bangkok 2025"
+   ]
   },
   {
    "id": "standard-mahanakhon",
@@ -500,7 +531,10 @@
     "KROMO Bangkok Curio Collection"
    ],
    "transit": "BTS Asok / MRT Sukhumvit · 5 min",
-   "notes": "Opened Sept 2025, 306 rooms; usually the cheapest way into either program in Bangkok."
+   "notes": "Opened Sept 2025, 306 rooms; usually the cheapest way into either program in Bangkok.",
+   "photoTerms": [
+    "KROMO Bangkok"
+   ]
   },
   {
    "id": "como-metropolitan",
@@ -545,7 +579,11 @@
     "Sofitel Bangkok Sukhumvit"
    ],
    "transit": "BTS Nana / Asok · 5 min",
-   "notes": "French-Thai polish; L'Appart rooftop bar."
+   "notes": "French-Thai polish; L'Appart rooftop bar.",
+   "photoTerms": [
+    "Sofitel Bangkok Sukhumvit",
+    "Sofitel Sukhumvit"
+   ]
   },
   {
    "id": "grand-hyatt-erawan",
@@ -613,7 +651,10 @@
     "137 Pillars Suites Bangkok"
    ],
    "transit": "BTS Phrom Phong · 15 min or tuk-tuk shuttle",
-   "notes": "34 all-suite floors with butlers; rooftop infinity pool."
+   "notes": "34 all-suite floors with butlers; rooftop infinity pool.",
+   "photoTerms": [
+    "137 Pillars Suites"
+   ]
   },
   {
    "id": "madi-paidi",
@@ -636,7 +677,10 @@
     "Madi Paidi Bangkok"
    ],
    "transit": "BTS Thong Lo · 5 min",
-   "notes": "56-room boutique from 2023 — Thailand's first Autograph Collection."
+   "notes": "56-room boutique from 2023 — Thailand's first Autograph Collection.",
+   "photoTerms": [
+    "Madi Paidi"
+   ]
   }
  ]
 }
