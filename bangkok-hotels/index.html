@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bangkok Hotel Ledger</title>
+<meta name="description" content="Amex Fine Hotels + Resorts and Hotel Collection hotels in Bangkok for 1–6 May 2027: map, photos, a price log and a planner for four $300 Platinum hotel credits.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="vendor/leaflet.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- app:start -->
+<div class="app" id="app">
+  <header class="topbar">
+    <div class="brand"><h1>Bangkok <em>Hotel Ledger</em></h1></div>
+    <div class="trip" id="tripline"></div>
+    <span class="spacer"></span>
+    <nav class="tabs" id="tabs" aria-label="Sections">
+      <button type="button" data-tab="map" class="tab-map-only">Map</button>
+      <button type="button" data-tab="hotels" class="on">Hotels<span class="cnt" id="cnt-hotels"></span></button>
+      <button type="button" data-tab="plan">Plan</button>
+      <button type="button" data-tab="prices">Prices</button>
+    </nav>
+    <span class="sync" id="sync" title="Where your prices and plan are stored"><span class="dot"></span><span class="t">Saved on this device</span></span>
+    <button type="button" class="btn quiet icon" id="btn-settings" title="Settings" aria-label="Settings">⚙</button>
+  </header>
+
+  <div class="main" id="main">
+    <div class="pane map-pane on" data-pane="map">
+      <div id="map" role="region" aria-label="Map of Bangkok hotels"></div>
+      <div class="map-ui" id="map-ui"></div>
+      <div class="map-legend" id="map-legend"></div>
+      <div class="map-attrib" id="map-attrib"></div>
+    </div>
+
+    <aside class="side pane on" data-pane="side">
+      <section id="tab-hotels">
+        <div class="filters" id="filters">
+          <button type="button" class="chip on" data-f="program" data-v="FHR"><span class="dot" style="color:var(--fhr)"></span>Fine Hotels + Resorts <span class="num" id="n-fhr"></span></button>
+          <button type="button" class="chip on" data-f="program" data-v="THC"><span class="dot" style="color:var(--thc)"></span>Hotel Collection <span class="num" id="n-thc"></span></button>
+          <button type="button" class="chip" data-f="starred" title="Only starred hotels">★ Shortlist</button>
+          <span class="grow"></span>
+          <select class="input" id="f-area" aria-label="Area"><option value="">All areas</option></select>
+          <select class="input" id="f-sort" aria-label="Sort by">
+            <option value="price">Sort: price</option>
+            <option value="name">Sort: name</option>
+            <option value="area">Sort: area</option>
+            <option value="program">Sort: program</option>
+            <option value="checked">Sort: last checked</option>
+          </select>
+        </div>
+        <div class="row between small muted">
+          <span id="list-summary"></span>
+          <label class="check tiny"><input type="checkbox" id="f-hidden"> show hidden</label>
+        </div>
+        <div id="list" class="stack"></div>
+        <p class="tiny muted">Program membership as of Sept 2026, read from Amex's own property pages. Missing one? Add it from Settings.</p>
+      </section>
+
+      <section id="tab-plan" hidden>
+        <div class="card"><div class="pad stack">
+          <h2>Four credits, five nights</h2>
+          <p class="small muted" style="margin:0">Each Platinum card account earns up to <span class="num">$300</span> per half-year (Jan–Jun and Jul–Dec) on prepaid “Pay Now” FHR and Hotel Collection bookings. The half-year is decided by the <strong>charge date</strong>, not the stay, so a May 2027 trip can use both the Jul–Dec 2026 and Jan–Jun 2027 credits. Hotel Collection bookings need 2+ nights; a credit can be spread over several bookings until it is used up.</p>
+          <div class="tbl-wrap"><table class="tbl credits-tbl" id="credits"></table></div>
+          <div class="row"><button type="button" class="btn sm" id="btn-add-credit">Add a credit</button><span class="tiny muted">Rename these to match your cards (e.g. “Chris · Platinum”, “Business Platinum”).</span></div>
+        </div></div>
+
+        <div class="card"><div class="pad stack">
+          <div class="row between"><h2>Split the stay</h2><button type="button" class="btn sm quiet" id="btn-plan-reset">Reset</button></div>
+          <p class="small muted" style="margin:0">Tap the circle between two nights to split the stay into separate bookings, then give each booking a hotel and a credit.</p>
+          <div class="nights" id="nights"></div>
+          <div class="segs" id="segs"></div>
+          <div class="totals" id="totals"></div>
+          <div id="plan-warnings" class="stack"></div>
+        </div></div>
+
+        <div class="card"><div class="pad stack">
+          <h2>Suggest a split</h2>
+          <p class="small muted" style="margin:0">Given one hotel and a nightly rate, which split captures the most credit?</p>
+          <div class="row">
+            <select class="input" id="sug-hotel" aria-label="Hotel"></select>
+            <input class="input mono" id="sug-rate" type="number" min="0" step="1" placeholder="USD / night" aria-label="Nightly rate in USD" style="width:130px">
+            <button type="button" class="btn primary" id="btn-suggest">Suggest</button>
+          </div>
+          <div class="suggest" id="suggest"></div>
+        </div></div>
+      </section>
+
+      <section id="tab-prices" hidden>
+        <div class="card"><div class="pad stack">
+          <h2>Import prices</h2>
+          <p class="small muted" style="margin:0">On Amex Travel, run one Bangkok search for your dates, select everything on the results page (<kbd>Ctrl/⌘ A</kbd>, <kbd>C</kbd>) and paste it here. Each hotel’s price is matched by name; you review before saving.</p>
+          <textarea class="input" id="paste" placeholder="Paste the Amex Travel results page text here…" spellcheck="false"></textarea>
+          <div class="row">
+            <label class="field"><span>Prices shown are</span>
+              <select class="input" id="paste-kind"><option value="auto">detect per night / total</option><option value="night">per night</option><option value="total">total for the stay</option></select></label>
+            <label class="field"><span>Currency if unmarked</span>
+              <select class="input" id="paste-cur"><option>USD</option><option>THB</option></select></label>
+            <span class="spacer"></span>
+            <button type="button" class="btn primary" id="btn-parse">Preview</button>
+          </div>
+          <div id="preview" class="stack"></div>
+          <details class="small"><summary>Optional one-click helper for the Amex results page</summary>
+            <div class="stack" style="margin-top:8px">
+              <p class="muted" style="margin:0">Drag this link to your bookmarks bar. On an Amex Travel results page it copies every hotel card’s text, together with Amex’s hotel ids, so pasting here also unlocks date-filled links for each hotel.</p>
+              <p style="margin:0"><a id="bookmarklet" class="btn sm" href="#">Copy Amex results</a> <span class="tiny muted">(or copy the code below into a new bookmark’s URL)</span></p>
+              <textarea class="input" id="bookmarklet-code" readonly style="min-height:70px"></textarea>
+            </div>
+          </details>
+        </div></div>
+
+        <div class="card"><div class="pad stack">
+          <div class="row between"><h2>Compare</h2><div class="legend"><span><span class="sw" style="background:var(--fhr)"></span>Fine Hotels + Resorts</span><span><span class="sw" style="background:var(--thc)"></span>Hotel Collection</span></div></div>
+          <div class="bars" id="bars"></div>
+          <div class="tbl-wrap"><table class="tbl" id="cmp"></table></div>
+          <div class="row">
+            <button type="button" class="btn sm" id="btn-export-csv">Export CSV</button>
+            <button type="button" class="btn sm" id="btn-export-json">Backup (JSON)</button>
+            <label class="btn sm">Restore backup<input type="file" id="file-json" accept="application/json,.json" hidden></label>
+            <label class="btn sm">Import CSV<input type="file" id="file-csv" accept=".csv,text/csv" hidden></label>
+          </div>
+          <p class="tiny muted" style="margin:0">CSV import expects one hotel per line: <span class="num">hotel name, price[, USD|THB]</span>. Prices are per night unless a third column says “total”.</p>
+        </div></div>
+      </section>
+    </aside>
+
+    <div class="drawer" id="drawer" hidden role="dialog" aria-label="Hotel details"></div>
+  </div>
+</div>
+
+<dialog id="dlg-settings">
+  <form method="dialog">
+    <div class="dhead"><h2>Settings</h2><button type="submit" class="btn quiet icon" aria-label="Close">✕</button></div>
+    <div class="dbody">
+      <div class="grid2">
+        <label class="field"><span>Check-in</span><input class="input" type="date" id="s-checkin"></label>
+        <label class="field"><span>Check-out</span><input class="input" type="date" id="s-checkout"></label>
+        <label class="field"><span>Adults</span><input class="input" type="number" id="s-adults" min="1" max="4"></label>
+        <label class="field"><span>Show prices in</span><select class="input" id="s-currency"><option value="USD">US dollars</option><option value="THB">Thai baht</option></select></label>
+        <label class="field"><span>Baht per dollar</span><input class="input mono" type="number" id="s-rate" min="1" step="0.1"></label>
+        <label class="field"><span>Theme</span><select class="input" id="s-theme"><option value="">Match system</option><option value="light">Light</option><option value="dark">Dark</option></select></label>
+      </div>
+      <hr class="sep">
+      <h3>Add a hotel</h3>
+      <p class="small muted" style="margin:0">For a property that joins FHR or the Hotel Collection later. Coordinates come from the “Share” menu in Google Maps, or leave them blank and it sits in the list only.</p>
+      <div class="grid2">
+        <label class="field"><span>Name</span><input class="input" id="a-name"></label>
+        <label class="field"><span>Program</span><select class="input" id="a-program"><option>FHR</option><option>THC</option></select></label>
+        <label class="field"><span>Area</span><select class="input" id="a-area"></select></label>
+        <label class="field"><span>Latitude, longitude</span><input class="input mono" id="a-latlng" placeholder="13.7238, 100.5146"></label>
+        <label class="field"><span>Website</span><input class="input" id="a-url" placeholder="https://"></label>
+      </div>
+      <div><button type="button" class="btn" id="btn-add-hotel">Add hotel</button></div>
+      <hr class="sep">
+      <div class="row between">
+        <span class="small muted" id="about-line"></span>
+        <button type="button" class="btn sm danger" id="btn-reset">Erase all prices and plans</button>
+      </div>
+    </div>
+  </form>
+</dialog>
+
+<div class="toast" id="toast" hidden></div>
+<div class="tip" id="tip" hidden></div>
+<!-- app:end -->
+<script src="vendor/leaflet.js"></script>
+<script src="data/hotels.js"></script>
+<script src="data/photos.js"></script>
+<script src="data/basemap.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
