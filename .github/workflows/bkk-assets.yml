@@ -1,0 +1,88 @@
+name: Bangkok hotels · generated assets
+
+# Fetches things the tracker needs from the open internet (OpenStreetMap base map,
+# freely licensed hotel photos, geodata cross-checks) and commits them to the branch.
+on:
+  workflow_dispatch:
+    inputs:
+      basemap:
+        description: Rebuild the OpenStreetMap base map
+        type: boolean
+        default: true
+      photos:
+        description: Fetch photo candidates and geo cross-checks
+        type: boolean
+        default: true
+      only:
+        description: Comma-separated hotel ids (photos step only, blank = all)
+        type: string
+        default: ""
+      max_cands:
+        description: Photo candidates per hotel
+        type: string
+        default: "3"
+  push:
+    branches: [claude/bangkok-hotel-tracker-ttodyh]
+    paths:
+      - bangkok-hotels/scripts/**
+      - .github/workflows/bkk-assets.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bkk-assets-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        working-directory: bangkok-hotels/scripts
+        run: |
+          npm install --no-audit --no-fund
+          python -m pip install --quiet requests pillow
+
+      - name: Build OpenStreetMap base map
+        if: ${{ github.event_name == 'push' || inputs.basemap }}
+        working-directory: bangkok-hotels/scripts
+        run: node build_basemap.mjs
+
+      - name: Fetch photo candidates and geo checks
+        if: ${{ github.event_name == 'push' || inputs.photos }}
+        working-directory: bangkok-hotels/scripts
+        env:
+          ONLY_HOTELS: ${{ inputs.only }}
+          MAX_CANDS: ${{ inputs.max_cands || '3' }}
+        run: python fetch_photos.py
+
+      - name: Bundle data files
+        working-directory: bangkok-hotels/scripts
+        run: node build_data.mjs
+
+      - name: Commit and push generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A bangkok-hotels/data bangkok-hotels/photos
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git commit -m "chore(bangkok-hotels): refresh generated assets [skip ci]"
+          git pull --rebase origin "${{ github.ref_name }}"
+          git push origin "HEAD:${{ github.ref_name }}"
