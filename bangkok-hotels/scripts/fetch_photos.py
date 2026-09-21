@@ -25,13 +25,24 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = "BangkokHotelTracker/1.0 (+https://github.com/Chrisjschn/Ledger-quest; personal trip planner build script)"
 S = requests.Session()
 S.headers["User-Agent"] = UA
-MAX_CANDS = int(os.environ.get("MAX_CANDS", "3"))
+MAX_CANDS = int(os.environ.get("MAX_CANDS", "5"))
 ONLY = {x.strip() for x in os.environ.get("ONLY_HOTELS", "").split(",") if x.strip()}
 SKIP_GEO = os.environ.get("SKIP_GEO") == "1"
 CAND_DIR = os.path.join(ROOT, "photos", "candidates")
 os.makedirs(CAND_DIR, exist_ok=True)
 
-BAD_TITLE = re.compile(r"logo|\bmap\b|floor ?plan|icon|flag|\.svg|diagram|\bsign\b|menu|screenshot|coat of arms|emblem|banner|poster|brochure|ticket|receipt", re.I)
+BAD_TITLE = re.compile(r"logo|\bmap\b|floor ?plan|icon|flag|\.svg|diagram|\bsign\b|menu|screenshot|coat of arms|emblem|banner|poster|brochure|ticket|receipt|demolish|under construction|rendering|scale model|toilet|bathroom|panorama|pano\b", re.I)
+OTHER_PLACE = re.compile(r"tokyo|shanghai|singapore|paris|new york|dubai|hong ?kong|seoul|kuala lumpur|phuket|patong|chiang ?mai|pattaya|samui|hua hin|beijing|taipei|london|sydney|macau|jakarta|hanoi|manila|osaka|kyoto|krabi|maldives|bali", re.I)
+GENERIC = {"the","hotel","hotels","bangkok","and","a","an","at","by","of","in","resort","resorts","collection","luxury","curio","autograph","hilton","marriott","hyatt","ihg","suites","residences","river","park","grand","one","city","thailand","thai","tower","road","chao","phraya","house","international","boulevard"}
+def distinctive_tokens(hotel):
+    words = set()
+    for src in [hotel["name"]] + list(hotel.get("aliases") or []) + list(hotel.get("search") or []):
+        for w in re.findall(r"[a-z0-9]+", src.lower()):
+            if len(w) >= 3 and w not in GENERIC:
+                words.add(w)
+    if hotel["id"] == "so-bangkok":
+        words |= {"sofitel"}
+    return words
 
 
 def get(url, params=None, timeout=40, tries=3):
@@ -77,9 +88,10 @@ def commons_search(query, limit=10):
 
 
 def commons_fileinfo(titles):
+    """imageinfo for File: titles; en.wikipedia resolves both Commons-hosted and local files."""
     if not titles:
         return {}
-    r = get("https://commons.wikimedia.org/w/api.php", dict(
+    r = get("https://en.wikipedia.org/w/api.php", dict(
         action="query", format="json", titles="|".join(titles), prop="imageinfo",
         iiprop="url|size|mime|extmetadata", iiurlwidth=1280))
     if not r:
@@ -168,10 +180,15 @@ def nominatim(q):
 
 # ---------- candidate assembly ----------
 
-def score_title(title, hotel):
-    tokens = [w for w in re.findall(r"[a-z0-9]+", hotel["name"].lower()) if len(w) > 2 and w not in {"the", "hotel", "bangkok", "and", "resort", "collection", "luxury"}]
-    tl = title.lower()
-    return sum(1 for w in tokens if w in tl)
+def score_title(text, hotel):
+    tl = text.lower()
+    toks = distinctive_tokens(hotel)
+    hits = sum(1 for w in toks if re.search(r"\b" + re.escape(w) + r"\b", tl))
+    full = re.sub(r"[^a-z0-9 ]+", " ", hotel["name"].lower()).split()
+    full = " ".join(w for w in full if w not in {"the", "a"})
+    if full and full in re.sub(r"[^a-z0-9 ]+", " ", tl):
+        hits += 3
+    return hits
 
 
 def candidate_from_page(p, hotel, source):
@@ -190,6 +207,19 @@ def candidate_from_page(p, hotel, source):
     lic = v("LicenseShortName")
     if re.search(r"non-?free|fair use", lic, re.I):
         return None
+    w, hgt = info.get("width") or 1, info.get("height") or 1
+    if w / hgt > 2.1 or w / hgt < 0.55:
+        return None
+    text = title + " " + v("ImageDescription") + " " + v("ObjectName")
+    if BAD_TITLE.search(text):
+        return None
+    if OTHER_PLACE.search(text) and not re.search(r"bangkok|krung thep", text, re.I):
+        return None
+    sc = score_title(text, hotel)
+    if sc < 1:
+        return None
+    if 1.2 <= w / hgt <= 1.9:
+        sc += 1
     return {
         "title": title,
         "source": source,
@@ -202,7 +232,7 @@ def candidate_from_page(p, hotel, source):
         "description": v("ImageDescription")[:200],
         "width": info.get("width"),
         "height": info.get("height"),
-        "score": score_title(title + " " + v("ImageDescription"), hotel),
+        "score": sc,
     }
 
 
@@ -226,6 +256,7 @@ def collect_candidates(hotel):
         files = wiki_page_images(wiki_title)
         titles = ([lead_title] if lead_title else []) + [f for f in files if f != lead_title]
         infos = commons_fileinfo(titles[:10])
+        print(f"   wikipedia '{wiki_title}': lead={lead_title!r} found={lead_title in infos if lead_title else None} article_files={len(files)} infos={len(infos)}")
         for t in titles[:10]:
             p = infos.get(t)
             if p:

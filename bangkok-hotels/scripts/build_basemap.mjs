@@ -11,6 +11,7 @@ import { fileURLToPath } from 'node:url';
 import osmtogeojson from 'osmtogeojson';
 import bboxClip from '@turf/bbox-clip';
 import simplify from '@turf/simplify';
+import { pruneBasemap } from './basemap_filters.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, '..');
@@ -214,16 +215,16 @@ function build(osm, { dropTertiary = false, tolScale = 1 } = {}) {
 }
 
 const osm = await fetchOverpass();
-let out = build(osm);
+let out = pruneBasemap(build(osm));
 let json = JSON.stringify(out);
 if (json.length > MAX_BYTES) {
   console.log(`basemap ${json.length} bytes > ${MAX_BYTES}; dropping tertiary roads`);
-  out = build(osm, { dropTertiary: true });
+  out = pruneBasemap(build(osm, { dropTertiary: true }));
   json = JSON.stringify(out);
 }
 if (json.length > MAX_BYTES) {
   console.log(`basemap ${json.length} bytes > ${MAX_BYTES}; simplifying harder`);
-  out = build(osm, { dropTertiary: true, tolScale: 2 });
+  out = pruneBasemap(build(osm, { dropTertiary: true, tolScale: 2 }));
   json = JSON.stringify(out);
 }
 fs.mkdirSync(path.dirname(OUT_JS), { recursive: true });
