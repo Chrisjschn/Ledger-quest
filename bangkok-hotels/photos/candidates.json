@@ -167,10 +167,10 @@
     ]
    },
    {
-    "title": "File:Four Seasons Bangkok P1130199.JPG",
+    "title": "File:Four Seasons Bangkok P1130187.JPG",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Four_Seasons_Bangkok_P1130199.JPG/1280px-Four_Seasons_Bangkok_P1130199.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Four_Seasons_Bangkok_P1130199.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Four_Seasons_Bangkok_P1130187.JPG/1280px-Four_Seasons_Bangkok_P1130187.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Four_Seasons_Bangkok_P1130187.JPG",
     "artist": "Deror Avi",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
@@ -184,9 +184,47 @@
      1280,
      960
     ]
+   },
+   {
+    "title": "File:Four Seasons Bangkok P1130195.JPG",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Four_Seasons_Bangkok_P1130195.JPG/1280px-Four_Seasons_Bangkok_P1130195.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Four_Seasons_Bangkok_P1130195.JPG",
+    "artist": "Deror Avi",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Own work",
+    "description": "Four Seasons Hotel, Bangkok, Thailand",
+    "width": 4000,
+    "height": 3000,
+    "score": 3,
+    "file": "photos/candidates/four-seasons-4.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
+   },
+   {
+    "title": "File:Four Seasons Bangkok P1130199.JPG",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Four_Seasons_Bangkok_P1130199.JPG/1280px-Four_Seasons_Bangkok_P1130199.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Four_Seasons_Bangkok_P1130199.JPG",
+    "artist": "Deror Avi",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Own work",
+    "description": "Four Seasons Hotel, Bangkok, Thailand",
+    "width": 4000,
+    "height": 3000,
+    "score": 3,
+    "file": "photos/candidates/four-seasons-5.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
    }
   ],
-  "considered": 13
+  "considered": 12
  },
  "capella": {
   "name": "Capella Bangkok",
@@ -196,6 +234,63 @@
  "the-siam": {
   "name": "The Siam",
   "candidates": [
+   {
+    "title": "File:Anantara Siam Bangkok Hotel bell.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Anantara_Siam_Bangkok_Hotel_bell.jpg/1280px-Anantara_Siam_Bangkok_Hotel_bell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Anantara_Siam_Bangkok_Hotel_bell.jpg",
+    "artist": "Chainwit.",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "description": "Anantara Siam Bangkok Hotel",
+    "width": 4032,
+    "height": 3024,
+    "score": 5,
+    "file": "photos/candidates/the-siam-1.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
+   },
+   {
+    "title": "File:Hotel Holiday Inn Bangkok Siam 4.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Hotel_Holiday_Inn_Bangkok_Siam_4.jpg/1280px-Hotel_Holiday_Inn_Bangkok_Siam_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Hotel_Holiday_Inn_Bangkok_Siam_4.jpg",
+    "artist": "Rangan Datta Wiki",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "description": "Breakfast at Hotel Holiday Inn Bangkok Siam. Dragon fruit, pineapple, yougart and orange juice",
+    "width": 3787,
+    "height": 2840,
+    "score": 5,
+    "file": "photos/candidates/the-siam-2.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
+   },
+   {
+    "title": "File:Dusit Maha Prasat, BKK 2.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Dusit_Maha_Prasat%2C_BKK_2.jpg/1280px-Dusit_Maha_Prasat%2C_BKK_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dusit_Maha_Prasat,_BKK_2.jpg",
+    "artist": "This Photo was taken by Supanut Arunoprayote.\n\nFeel free to use any of my images, but please mention me as the author an",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "credit": "Own work",
+    "description": "This is a photo of a monument in Thailand identified by the ID",
+    "width": 5130,
+    "height": 3420,
+    "score": 2,
+    "file": "photos/candidates/the-siam-3.jpg",
+    "saved_size": [
+     1280,
+     853
+    ]
+   },
    {
     "title": "File:Rama4 road-Suriya Wong, Bang Rak, Bangkok, Thái Lan - panoramio.jpg",
     "source": "commons-search",
@@ -209,52 +304,33 @@
     "width": 2592,
     "height": 1936,
     "score": 2,
-    "file": "photos/candidates/the-siam-1.jpg",
+    "file": "photos/candidates/the-siam-4.jpg",
     "saved_size": [
      1280,
      956
     ]
    },
    {
-    "title": "File:Hotel Dusit Thani, Bangkok, Tailandia, 2013-08-22, DD 01.jpg",
+    "title": "File:Bangkok, Dusit 1998 02.jpg",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Hotel_Dusit_Thani%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_01.jpg/1280px-Hotel_Dusit_Thani%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Hotel_Dusit_Thani,_Bangkok,_Tailandia,_2013-08-22,_DD_01.jpg",
-    "artist": "Diego Delso",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "credit": "Own work",
-    "description": "Dusit Thani Hotel, Bangkok, Thailand",
-    "width": 3076,
-    "height": 4239,
-    "score": 1,
-    "file": "photos/candidates/the-siam-2.jpg",
-    "saved_size": [
-     929,
-     1280
-    ]
-   },
-   {
-    "title": "File:Dusit Thani Hotel 2018-06-30.jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Dusit_Thani_Hotel_2018-06-30.jpg/1280px-Dusit_Thani_Hotel_2018-06-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Dusit_Thani_Hotel_2018-06-30.jpg",
-    "artist": "Sry85",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Bangkok%2C_Dusit_1998_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Bangkok,_Dusit_1998_02.jpg",
+    "artist": "LBM1948",
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "credit": "Own work",
-    "description": "Dusit Thani Hotel, Silom road entrance.",
-    "width": 2976,
-    "height": 3968,
-    "score": 1,
-    "file": "photos/candidates/the-siam-3.jpg",
+    "description": "Pond, footbridge and buildings at Dusit Park. Bangkok, Thailand",
+    "width": 1068,
+    "height": 716,
+    "score": 2,
+    "file": "photos/candidates/the-siam-5.jpg",
     "saved_size": [
-     960,
-     1280
+     1068,
+     716
     ]
    }
   ],
-  "considered": 4
+  "considered": 11
  },
  "park-hyatt": {
   "name": "Park Hyatt Bangkok",
@@ -271,30 +347,11 @@
     "description": "The Park Chidlom, viewed from Central Embassy / the Park Hyatt Bangkok",
     "width": 1241,
     "height": 1655,
-    "score": 5,
+    "score": 7,
     "file": "photos/candidates/park-hyatt-1.jpg",
     "saved_size": [
      960,
      1280
-    ]
-   },
-   {
-    "title": "File:Vibrant Dusk (Unsplash).jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Vibrant_Dusk_%28Unsplash%29.jpg/1280px-Vibrant_Dusk_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Vibrant_Dusk_(Unsplash).jpg",
-    "artist": "Ryan Tang ryz0n",
-    "license": "CC0",
-    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "credit": "https://unsplash.com/photos/evLIkrue9G0\narchive copy at the Wayback Machine\n\nImage at the Wayback Machine",
-    "description": "Central Embassy, Bangkok, Thailand",
-    "width": 6000,
-    "height": 4000,
-    "score": 3,
-    "file": "photos/candidates/park-hyatt-2.jpg",
-    "saved_size": [
-     1280,
-     853
     ]
    },
    {
@@ -309,15 +366,72 @@
     "description": "Central Embassy Mall, Bangkok, Thailand",
     "width": 6000,
     "height": 4000,
-    "score": 3,
+    "score": 5,
+    "file": "photos/candidates/park-hyatt-2.jpg",
+    "saved_size": [
+     1280,
+     853
+    ]
+   },
+   {
+    "title": "File:Vibrant Dusk (Unsplash).jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Vibrant_Dusk_%28Unsplash%29.jpg/1280px-Vibrant_Dusk_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Vibrant_Dusk_(Unsplash).jpg",
+    "artist": "Ryan Tang ryz0n",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "https://unsplash.com/photos/evLIkrue9G0\narchive copy at the Wayback Machine\n\nImage at the Wayback Machine",
+    "description": "Central Embassy, Bangkok, Thailand",
+    "width": 6000,
+    "height": 4000,
+    "score": 5,
     "file": "photos/candidates/park-hyatt-3.jpg",
+    "saved_size": [
+     1280,
+     853
+    ]
+   },
+   {
+    "title": "File:2023 BMW Vision Neue Klasse.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/2023_BMW_Vision_Neue_Klasse.jpg/1280px-2023_BMW_Vision_Neue_Klasse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:2023_BMW_Vision_Neue_Klasse.jpg",
+    "artist": "Chanokchon",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "description": "2023 BMW Vision Neue Klasse in Central Embassy, Bangkok, Thailand.",
+    "width": 4608,
+    "height": 2592,
+    "score": 5,
+    "file": "photos/candidates/park-hyatt-4.jpg",
+    "saved_size": [
+     1280,
+     720
+    ]
+   },
+   {
+    "title": "File:Central Embassy Level 2 Garden 201801.jpg",
+    "source": "wikipedia-article",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Central_Embassy_Level_2_Garden_201801.jpg/1280px-Central_Embassy_Level_2_Garden_201801.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Central_Embassy_Level_2_Garden_201801.jpg",
+    "artist": "Wpcpey",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "description": "Central Embassy Level 2 Garden",
+    "width": 3648,
+    "height": 2432,
+    "score": 5,
+    "file": "photos/candidates/park-hyatt-5.jpg",
     "saved_size": [
      1280,
      853
     ]
    }
   ],
-  "considered": 15
+  "considered": 16
  },
  "rosewood": {
   "name": "Rosewood Bangkok",
@@ -705,6 +819,44 @@
      1280,
      960
     ]
+   },
+   {
+    "title": "File:Park Nai Lert Hotel (now Mövenpick BDMS Wellness Resort Bangkok) 2022August img 05.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Park_Nai_Lert_Hotel_%28now_M%C3%B6venpick_BDMS_Wellness_Resort_Bangkok%29_2022August_img_05.jpg/1280px-Park_Nai_Lert_Hotel_%28now_M%C3%B6venpick_BDMS_Wellness_Resort_Bangkok%29_2022August_img_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Park_Nai_Lert_Hotel_(now_M%C3%B6venpick_BDMS_Wellness_Resort_Bangkok)_2022August_img_05.jpg",
+    "artist": "Chainwit.",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "description": "Mövenpick BDMS Wellness Resort Bangkok (Formerly Nai Lert Park Hotel)",
+    "width": 4032,
+    "height": 3024,
+    "score": 3,
+    "file": "photos/candidates/aman-nai-lert-4.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
+   },
+   {
+    "title": "File:Park Nai Lert Hotel (now Mövenpick BDMS Wellness Resort Bangkok) 2022August img 02.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Park_Nai_Lert_Hotel_%28now_M%C3%B6venpick_BDMS_Wellness_Resort_Bangkok%29_2022August_img_02.jpg/1280px-Park_Nai_Lert_Hotel_%28now_M%C3%B6venpick_BDMS_Wellness_Resort_Bangkok%29_2022August_img_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Park_Nai_Lert_Hotel_(now_M%C3%B6venpick_BDMS_Wellness_Resort_Bangkok)_2022August_img_02.jpg",
+    "artist": "Chainwit.",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "description": "Mövenpick BDMS Wellness Resort Bangkok (Formerly Nai Lert Park Hotel)",
+    "width": 4032,
+    "height": 3024,
+    "score": 3,
+    "file": "photos/candidates/aman-nai-lert-5.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
    }
   ],
   "considered": 9
@@ -724,7 +876,7 @@
     "description": "ผู้แทนจากภาครัฐ ภาคเอกชน เข้าร่วมงานเลี้ยงรับรอง เนื่องในโอกาสวันชาติสหรัฐอเมริกา ประจำปี 2569 และครบรอบ 250 ปี การประกาศเอกราชของสหรัฐอเมริกา ณ โรงแรม The Ritz-Carlton, One Bangkok ถ.วิทยุ เขตปทุมวัน",
     "width": 2048,
     "height": 1365,
-    "score": 3,
+    "score": 5,
     "file": "photos/candidates/ritz-carlton-1.jpg",
     "saved_size": [
      1280,
@@ -743,7 +895,7 @@
     "description": "ผู้แทนจากภาครัฐ ภาคเอกชน เข้าร่วมงานเลี้ยงรับรอง เนื่องในโอกาสวันชาติสหรัฐอเมริกา ประจำปี 2569 และครบรอบ 250 ปี การประกาศเอกราชของสหรัฐอเมริกา ณ โรงแรม The Ritz-Carlton, One Bangkok ถ.วิทยุ เขตปทุมวัน",
     "width": 2048,
     "height": 1365,
-    "score": 3,
+    "score": 5,
     "file": "photos/candidates/ritz-carlton-2.jpg",
     "saved_size": [
      1280,
@@ -762,78 +914,154 @@
     "description": "นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและภริยา เข้าร่วมงานเลี้ยงรับรอง เนื่องในโอกาสวันชาติสหรัฐอเมริกา ประจำปี 2569 และครบรอบ 250 ปี การประกาศเอกราชของสหรัฐอเมริกา ณ โรงแรม The Ritz-Carlton, One Bangkok ถ.",
     "width": 2048,
     "height": 1365,
-    "score": 3,
+    "score": 5,
     "file": "photos/candidates/ritz-carlton-3.jpg",
     "saved_size": [
      1280,
      853
     ]
-   }
-  ],
-  "considered": 6
- },
- "dusit-thani": {
-  "name": "Dusit Thani Bangkok",
-  "candidates": [
-   {
-    "title": "File:Rama4 road-Suriya Wong, Bang Rak, Bangkok, Thái Lan - panoramio.jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Rama4_road-Suriya_Wong%2C_Bang_Rak%2C_Bangkok%2C_Th%C3%A1i_Lan_-_panoramio.jpg/1280px-Rama4_road-Suriya_Wong%2C_Bang_Rak%2C_Bangkok%2C_Th%C3%A1i_Lan_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Rama4_road-Suriya_Wong,_Bang_Rak,_Bangkok,_Th%C3%A1i_Lan_-_panoramio.jpg",
-    "artist": "trungydang",
-    "license": "CC BY 3.0",
-    "license_url": "https://creativecommons.org/licenses/by/3.0",
-    "credit": "https://web.archive.org/web/20161102010407/http://www.panoramio.com/photo/118793651",
-    "description": "Sala Daeng Junction and Thai-Japanese bridge (Dusit Thani Hotel left). Linkage point between BTS Silom Line and MRT Blue Line, Bang Rak, Bangkok, Thái Lan",
-    "width": 2592,
-    "height": 1936,
-    "score": 3,
-    "file": "photos/candidates/dusit-thani-1.jpg",
-    "saved_size": [
-     1280,
-     956
-    ]
    },
    {
-    "title": "File:Hotel Dusit Thani, Bangkok, Tailandia, 2013-08-22, DD 01.jpg",
-    "source": "wikipedia-article",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Hotel_Dusit_Thani%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_01.jpg/1280px-Hotel_Dusit_Thani%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Hotel_Dusit_Thani,_Bangkok,_Tailandia,_2013-08-22,_DD_01.jpg",
-    "artist": "Diego Delso",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "title": "File:The Ritz Carlton, Bangkok - One Bangkok (2024-10-26) - img 03.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/The_Ritz_Carlton%2C_Bangkok_-_One_Bangkok_%282024-10-26%29_-_img_03.jpg/1280px-The_Ritz_Carlton%2C_Bangkok_-_One_Bangkok_%282024-10-26%29_-_img_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Ritz_Carlton,_Bangkok_-_One_Bangkok_(2024-10-26)_-_img_03.jpg",
+    "artist": "Chainwit.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
     "credit": "Own work",
-    "description": "Dusit Thani Hotel, Bangkok, Thailand",
-    "width": 3076,
-    "height": 4239,
-    "score": 2,
-    "file": "photos/candidates/dusit-thani-2.jpg",
+    "description": "The Ritz Carlton, Bangkok is located in the One Bangkok complex",
+    "width": 3024,
+    "height": 4032,
+    "score": 4,
+    "file": "photos/candidates/ritz-carlton-4.jpg",
     "saved_size": [
-     929,
+     960,
      1280
     ]
    },
    {
-    "title": "File:Dusit Thani Hotel 2018-06-30.jpg",
+    "title": "File:The Ritz Carlton, Bangkok - One Bangkok (2024-10-26) - img 02.jpg",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Dusit_Thani_Hotel_2018-06-30.jpg/1280px-Dusit_Thani_Hotel_2018-06-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Dusit_Thani_Hotel_2018-06-30.jpg",
-    "artist": "Sry85",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/The_Ritz_Carlton%2C_Bangkok_-_One_Bangkok_%282024-10-26%29_-_img_02.jpg/1280px-The_Ritz_Carlton%2C_Bangkok_-_One_Bangkok_%282024-10-26%29_-_img_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Ritz_Carlton,_Bangkok_-_One_Bangkok_(2024-10-26)_-_img_02.jpg",
+    "artist": "Chainwit.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
     "credit": "Own work",
-    "description": "Dusit Thani Hotel, Silom road entrance.",
-    "width": 2976,
-    "height": 3968,
-    "score": 2,
-    "file": "photos/candidates/dusit-thani-3.jpg",
+    "description": "The Ritz Carlton, Bangkok is located in the One Bangkok complex",
+    "width": 3024,
+    "height": 4032,
+    "score": 4,
+    "file": "photos/candidates/ritz-carlton-5.jpg",
     "saved_size": [
      960,
      1280
     ]
    }
   ],
-  "considered": 4
+  "considered": 20
+ },
+ "dusit-thani": {
+  "name": "Dusit Thani Bangkok",
+  "candidates": [
+   {
+    "title": "File:Mosaic floor tiles at Dusit Central Park (2026).jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Mosaic_floor_tiles_at_Dusit_Central_Park_%282026%29.jpg/1280px-Mosaic_floor_tiles_at_Dusit_Central_Park_%282026%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Mosaic_floor_tiles_at_Dusit_Central_Park_(2026).jpg",
+    "artist": "Chainwit.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "credit": "Own work",
+    "description": "Mosaic floor tiles at Dusit Central Park, LG floor",
+    "width": 5712,
+    "height": 4284,
+    "score": 4,
+    "file": "photos/candidates/dusit-thani-1.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
+   },
+   {
+    "title": "File:Dusit Central Park (07-09-2025) - img 17.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Dusit_Central_Park_%2807-09-2025%29_-_img_17.jpg/1280px-Dusit_Central_Park_%2807-09-2025%29_-_img_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dusit_Central_Park_(07-09-2025)_-_img_17.jpg",
+    "artist": "Chainwit.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "credit": "Own work",
+    "description": "Dusit Central Park in September 2025",
+    "width": 5712,
+    "height": 4284,
+    "score": 4,
+    "file": "photos/candidates/dusit-thani-2.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
+   },
+   {
+    "title": "File:Dusit Central Park (07-09-2025) - img 01.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Dusit_Central_Park_%2807-09-2025%29_-_img_01.jpg/1280px-Dusit_Central_Park_%2807-09-2025%29_-_img_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dusit_Central_Park_(07-09-2025)_-_img_01.jpg",
+    "artist": "Chainwit.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "credit": "Own work",
+    "description": "Dusit Central Park in September 2025",
+    "width": 5712,
+    "height": 4284,
+    "score": 4,
+    "file": "photos/candidates/dusit-thani-3.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
+   },
+   {
+    "title": "File:Dusit Arun at Dusit Central Park (07-09-2025) - img 09.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Dusit_Arun_at_Dusit_Central_Park_%2807-09-2025%29_-_img_09.jpg/1280px-Dusit_Arun_at_Dusit_Central_Park_%2807-09-2025%29_-_img_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dusit_Arun_at_Dusit_Central_Park_(07-09-2025)_-_img_09.jpg",
+    "artist": "Chainwit.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "credit": "Own work",
+    "description": "Dusit Arun, the sky garden of Dusit Central Park",
+    "width": 5712,
+    "height": 4284,
+    "score": 4,
+    "file": "photos/candidates/dusit-thani-4.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
+   },
+   {
+    "title": "File:Dusit Arun at Dusit Central Park (07-09-2025) - img 13.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Dusit_Arun_at_Dusit_Central_Park_%2807-09-2025%29_-_img_13.jpg/1280px-Dusit_Arun_at_Dusit_Central_Park_%2807-09-2025%29_-_img_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dusit_Arun_at_Dusit_Central_Park_(07-09-2025)_-_img_13.jpg",
+    "artist": "Chainwit.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "credit": "Own work",
+    "description": "Thao Santa Dusit shrine in Dusit Arun, the sky garden of Dusit Central Park",
+    "width": 5712,
+    "height": 4284,
+    "score": 4,
+    "file": "photos/candidates/dusit-thani-5.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
+   }
+  ],
+  "considered": 15
  },
  "standard-mahanakhon": {
   "name": "The Standard, Bangkok Mahanakhon",
