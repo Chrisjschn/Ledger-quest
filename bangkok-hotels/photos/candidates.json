@@ -3,68 +3,106 @@
   "name": "Mandarin Oriental, Bangkok",
   "candidates": [
    {
-    "title": "File:MO Bangkok exterior.jpg",
-    "source": "wikidata",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/MO_Bangkok_exterior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:MO_Bangkok_exterior.jpg",
-    "artist": "Mandarin Oriental Hotel Group",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "credit": "Mandarin Oriental Hotel Group",
-    "description": "View of Mandarin Oriental, Bangkok exterior",
-    "width": 1000,
-    "height": 1313,
-    "score": 4,
-    "file": "photos/candidates/mandarin-oriental-1.jpg",
-    "saved_size": [
-     975,
-     1280
-    ]
-   },
-   {
-    "title": "File:0005485 - Mandarin Oriental 001.jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/0005485_-_Mandarin_Oriental_001.jpg/1280px-0005485_-_Mandarin_Oriental_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:0005485_-_Mandarin_Oriental_001.jpg",
-    "artist": "Preecha.MJ",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "credit": "Own work",
-    "description": "This is a photo of a monument in Thailand identified by the ID",
-    "width": 4256,
-    "height": 2832,
-    "score": 2,
-    "file": "photos/candidates/mandarin-oriental-2.jpg",
-    "saved_size": [
-     1280,
-     852
-    ]
-   },
-   {
-    "title": "File:The China House Mandarin เดอะไชน่าเฮ้าส์ แมนดาริน โอเรียนเต็ล.jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/The_China_House_Mandarin_%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%8A%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%AE%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B9%8C_%E0%B9%81%E0%B8%A1%E0%B8%99%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B8%B4%E0%B8%99_%E0%B9%82%E0%B8%AD%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%A5.jpg/1280px-The_China_House_Mandarin_%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%8A%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%AE%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B9%8C_%E0%B9%81%E0%B8%A1%E0%B8%99%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B8%B4%E0%B8%99_%E0%B9%82%E0%B8%AD%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%A5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:The_China_House_Mandarin_%E0%B9%80%E0%B8%94%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%8A%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B9%80%E0%B8%AE%E0%B9%89%E0%B8%B2%E0%B8%AA%E0%B9%8C_%E0%B9%81%E0%B8%A1%E0%B8%99%E0%B8%94%E0%B8%B2%E0%B8%A3%E0%B8%B4%E0%B8%99_%E0%B9%82%E0%B8%AD%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%A5.jpg",
+    "title": "File:Mandarin Oriental Bangkok Bang Rak.jpg",
+    "source": "wikipedia-article",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Mandarin_Oriental_Bangkok_Bang_Rak.jpg/1280px-Mandarin_Oriental_Bangkok_Bang_Rak.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Mandarin_Oriental_Bangkok_Bang_Rak.jpg",
     "artist": "Chainwit.",
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "credit": "Own work",
-    "description": "The China House, Mandarin Oriental Hotel Bangkok, Chareon Krung Rd, Bangkok",
-    "width": 4032,
-    "height": 3024,
-    "score": 2,
-    "file": "photos/candidates/mandarin-oriental-3.jpg",
+    "description": "This is a photo of a monument in Thailand identified by the ID",
+    "width": 1600,
+    "height": 1200,
+    "score": 6,
+    "file": "photos/candidates/mandarin-oriental-1.jpg",
     "saved_size": [
      1280,
      960
     ]
+   },
+   {
+    "title": "File:Mandarin Oriental Bangkok Somerset Suite.jpg",
+    "source": "commons-search",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Mandarin_Oriental_Bangkok_Somerset_Suite.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Mandarin_Oriental_Bangkok_Somerset_Suite.jpg",
+    "artist": "Mandarin Oriental Hotel Group",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Mandarin Oriental Hotel Group",
+    "description": "Interior view of the Somerset Suite at Mandarin Oriental, Bangkok",
+    "width": 809,
+    "height": 536,
+    "score": 6,
+    "file": "photos/candidates/mandarin-oriental-2.jpg",
+    "saved_size": [
+     809,
+     536
+    ]
+   },
+   {
+    "title": "File:Mandarin Oriental Bangkok Lord Jims.jpg",
+    "source": "commons-search",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Mandarin_Oriental_Bangkok_Lord_Jims.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Mandarin_Oriental_Bangkok_Lord_Jims.jpg",
+    "artist": "Mandarin Oriental Hotel Group",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Mandarin Oriental Hotel Group",
+    "description": "Interior view of Lord Jims restaurant at Mandarin Oriental, Bangkok",
+    "width": 800,
+    "height": 532,
+    "score": 6,
+    "file": "photos/candidates/mandarin-oriental-3.jpg",
+    "saved_size": [
+     800,
+     532
+    ]
    }
   ],
-  "considered": 13
+  "considered": 12
  },
  "peninsula": {
   "name": "The Peninsula Bangkok",
   "candidates": [
+   {
+    "title": "File:The Peninsula Bangkok Pool.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/The_Peninsula_Bangkok_Pool.jpg/1280px-The_Peninsula_Bangkok_Pool.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Peninsula_Bangkok_Pool.jpg",
+    "artist": "Pixabay user keikiwai",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "Pixabay: Pool Palace Swimming Thailand archive copy at the Wayback Machine",
+    "description": "Swimming pool of The Peninsula Hotel, Bangkok",
+    "width": 1920,
+    "height": 1440,
+    "score": 5,
+    "file": "photos/candidates/peninsula-1.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
+   },
+   {
+    "title": "File:The Peninsula Bangkok.JPG",
+    "source": "wikipedia-article",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/The_Peninsula_Bangkok.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Peninsula_Bangkok.JPG",
+    "artist": "Terence Ong",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "credit": "Own work",
+    "description": "The Peninsula Bangkok.",
+    "width": 1075,
+    "height": 1406,
+    "score": 4,
+    "file": "photos/candidates/peninsula-2.jpg",
+    "saved_size": [
+     979,
+     1280
+    ]
+   },
    {
     "title": "File:Chao Phraya and The Peninsula Hotel (7997312586).jpg",
     "source": "commons-search",
@@ -77,267 +115,209 @@
     "description": "Chao Phraya River, the Peninsula Hotel and The River Luxury Condo in Bangkok. This is the Thonburi side of the river.",
     "width": 4608,
     "height": 2707,
-    "score": 1,
-    "file": "photos/candidates/peninsula-1.jpg",
+    "score": 2,
+    "file": "photos/candidates/peninsula-3.jpg",
     "saved_size": [
      1280,
      752
     ]
-   },
+   }
+  ],
+  "considered": 6
+ },
+ "four-seasons": {
+  "name": "Four Seasons Hotel Bangkok at Chao Phraya River",
+  "candidates": [
    {
-    "title": "File:Chao Phra river - Peninsula Hotel - Bangkok Thailand - panoramio.jpg",
+    "title": "File:Four Seasons Bangkok P1120987.JPG",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Chao_Phra_river_-_Peninsula_Hotel_-_Bangkok_Thailand_-_panoramio.jpg/1280px-Chao_Phra_river_-_Peninsula_Hotel_-_Bangkok_Thailand_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Chao_Phra_river_-_Peninsula_Hotel_-_Bangkok_Thailand_-_panoramio.jpg",
-    "artist": "David Broad",
-    "license": "CC BY 3.0",
-    "license_url": "https://creativecommons.org/licenses/by/3.0",
-    "credit": "https://web.archive.org/web/20161028001116/http://www.panoramio.com/photo/100576194",
-    "description": "Chao Phra river - Peninsula Hotel - Bangkok Thailand",
-    "width": 3264,
-    "height": 2176,
-    "score": 1,
-    "file": "photos/candidates/peninsula-2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Four_Seasons_Bangkok_P1120987.JPG/1280px-Four_Seasons_Bangkok_P1120987.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Four_Seasons_Bangkok_P1120987.JPG",
+    "artist": "Deror Avi",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Own work",
+    "description": "Four Seasons Hotel, Bangkok, Thailand",
+    "width": 4000,
+    "height": 3000,
+    "score": 3,
+    "file": "photos/candidates/four-seasons-1.jpg",
     "saved_size": [
      1280,
-     853
+     960
     ]
    },
    {
-    "title": "File:The Peninsula - panoramio (1).jpg",
+    "title": "File:Four Seasons Bangkok P1130194.JPG",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/The_Peninsula_-_panoramio_%281%29.jpg/1280px-The_Peninsula_-_panoramio_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:The_Peninsula_-_panoramio_(1).jpg",
-    "artist": "josef knecht",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Four_Seasons_Bangkok_P1130194.JPG/1280px-Four_Seasons_Bangkok_P1130194.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Four_Seasons_Bangkok_P1130194.JPG",
+    "artist": "Deror Avi",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Own work",
+    "description": "Four Seasons Hotel, Bangkok, Thailand",
+    "width": 4000,
+    "height": 3000,
+    "score": 3,
+    "file": "photos/candidates/four-seasons-2.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
+   },
+   {
+    "title": "File:Four Seasons Bangkok P1130199.JPG",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Four_Seasons_Bangkok_P1130199.JPG/1280px-Four_Seasons_Bangkok_P1130199.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Four_Seasons_Bangkok_P1130199.JPG",
+    "artist": "Deror Avi",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Own work",
+    "description": "Four Seasons Hotel, Bangkok, Thailand",
+    "width": 4000,
+    "height": 3000,
+    "score": 3,
+    "file": "photos/candidates/four-seasons-3.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
+   }
+  ],
+  "considered": 13
+ },
+ "capella": {
+  "name": "Capella Bangkok",
+  "candidates": [],
+  "considered": 0
+ },
+ "the-siam": {
+  "name": "The Siam",
+  "candidates": [
+   {
+    "title": "File:Rama4 road-Suriya Wong, Bang Rak, Bangkok, Thái Lan - panoramio.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Rama4_road-Suriya_Wong%2C_Bang_Rak%2C_Bangkok%2C_Th%C3%A1i_Lan_-_panoramio.jpg/1280px-Rama4_road-Suriya_Wong%2C_Bang_Rak%2C_Bangkok%2C_Th%C3%A1i_Lan_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rama4_road-Suriya_Wong,_Bang_Rak,_Bangkok,_Th%C3%A1i_Lan_-_panoramio.jpg",
+    "artist": "trungydang",
     "license": "CC BY 3.0",
     "license_url": "https://creativecommons.org/licenses/by/3.0",
-    "credit": "https://web.archive.org/web/20161031221443/http://www.panoramio.com/photo/122966550",
-    "description": "The Peninsula",
-    "width": 2925,
-    "height": 3900,
+    "credit": "https://web.archive.org/web/20161102010407/http://www.panoramio.com/photo/118793651",
+    "description": "Sala Daeng Junction and Thai-Japanese bridge (Dusit Thani Hotel left). Linkage point between BTS Silom Line and MRT Blue Line, Bang Rak, Bangkok, Thái Lan",
+    "width": 2592,
+    "height": 1936,
+    "score": 2,
+    "file": "photos/candidates/the-siam-1.jpg",
+    "saved_size": [
+     1280,
+     956
+    ]
+   },
+   {
+    "title": "File:Hotel Dusit Thani, Bangkok, Tailandia, 2013-08-22, DD 01.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Hotel_Dusit_Thani%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_01.jpg/1280px-Hotel_Dusit_Thani%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Hotel_Dusit_Thani,_Bangkok,_Tailandia,_2013-08-22,_DD_01.jpg",
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "Own work",
+    "description": "Dusit Thani Hotel, Bangkok, Thailand",
+    "width": 3076,
+    "height": 4239,
     "score": 1,
-    "file": "photos/candidates/peninsula-3.jpg",
+    "file": "photos/candidates/the-siam-2.jpg",
+    "saved_size": [
+     929,
+     1280
+    ]
+   },
+   {
+    "title": "File:Dusit Thani Hotel 2018-06-30.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Dusit_Thani_Hotel_2018-06-30.jpg/1280px-Dusit_Thani_Hotel_2018-06-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dusit_Thani_Hotel_2018-06-30.jpg",
+    "artist": "Sry85",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "description": "Dusit Thani Hotel, Silom road entrance.",
+    "width": 2976,
+    "height": 3968,
+    "score": 1,
+    "file": "photos/candidates/the-siam-3.jpg",
     "saved_size": [
      960,
      1280
     ]
    }
   ],
-  "considered": 12
- },
- "four-seasons": {
-  "name": "Four Seasons Hotel Bangkok at Chao Phraya River",
-  "candidates": [
-   {
-    "title": "File:Four Seasons Private Residences, BKK (I).jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Four_Seasons_Private_Residences%2C_BKK_%28I%29.jpg/1280px-Four_Seasons_Private_Residences%2C_BKK_%28I%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Four_Seasons_Private_Residences,_BKK_(I).jpg",
-    "artist": "This Photo was taken by Supanut Arunoprayote.\n\nFeel free to use any of my images, but please mention me as the author an",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0",
-    "credit": "Own work",
-    "description": "Four Seasons Private Residences Bangkok at Chao Phraya River will be the tallest exclusively residential complex in Thailand.",
-    "width": 4436,
-    "height": 6654,
-    "score": 5,
-    "file": "photos/candidates/four-seasons-1.jpg",
-    "saved_size": [
-     853,
-     1280
-    ]
-   },
-   {
-    "title": "File:Four Seasons Private Residences, BKK (II).jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Four_Seasons_Private_Residences%2C_BKK_%28II%29.jpg/1280px-Four_Seasons_Private_Residences%2C_BKK_%28II%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Four_Seasons_Private_Residences,_BKK_(II).jpg",
-    "artist": "This Photo was taken by Supanut Arunoprayote.\n\nFeel free to use any of my images, but please mention me as the author an",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0",
-    "credit": "Own work",
-    "description": "Four Seasons Private Residences Bangkok at Chao Phraya River will be the tallest exclusively residential complex in Thailand.",
-    "width": 2304,
-    "height": 4096,
-    "score": 5,
-    "file": "photos/candidates/four-seasons-2.jpg",
-    "saved_size": [
-     720,
-     1280
-    ]
-   },
-   {
-    "title": "File:Bangkok Pano (IV).jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Bangkok_Pano_%28IV%29.jpg/1280px-Bangkok_Pano_%28IV%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bangkok_Pano_(IV).jpg",
-    "artist": "This Photo was taken by Supanut Arunoprayote.\n\nFeel free to use any of my images, but please mention me as the author an",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0",
-    "credit": "Own work",
-    "description": "Panoramic view of downtown Bangkok along Chao Phraya river from Rama III Bridge.",
-    "width": 38811,
-    "height": 6617,
-    "score": 3,
-    "file": "photos/candidates/four-seasons-3.jpg",
-    "saved_size": [
-     1280,
-     218
-    ]
-   }
-  ],
-  "considered": 19
- },
- "capella": {
-  "name": "Capella Bangkok",
-  "candidates": [
-   {
-    "title": "File:Patong Beach.jpg",
-    "source": "wikipedia-article",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Patong_Beach.jpg/1280px-Patong_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Patong_Beach.jpg",
-    "artist": "",
-    "license": "CC BY-SA 3.0",
-    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-    "credit": "",
-    "description": "",
-    "width": 1600,
-    "height": 1200,
-    "score": 0,
-    "file": "photos/candidates/capella-1.jpg",
-    "saved_size": [
-     1280,
-     960
-    ]
-   }
-  ],
-  "considered": 1
- },
- "the-siam": {
-  "name": "The Siam",
-  "candidates": [
-   {
-    "title": "File:Bangkok Night Wikimedia Commons.jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Bangkok_Night_Wikimedia_Commons.jpg/1280px-Bangkok_Night_Wikimedia_Commons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bangkok_Night_Wikimedia_Commons.jpg",
-    "artist": "Benh LIEU SONG",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "credit": "Own work",
-    "description": "Bangkok at night, seen from top of Banyan Tree Hotel.",
-    "width": 7585,
-    "height": 2217,
-    "score": 0,
-    "file": "photos/candidates/the-siam-1.jpg",
-    "saved_size": [
-     1280,
-     374
-    ]
-   },
-   {
-    "title": "File:Lumpini Park, Bangkok, Thailand Silom-Sathorn CBD.JPG",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Lumpini_Park%2C_Bangkok%2C_Thailand_Silom-Sathorn_CBD.JPG/1280px-Lumpini_Park%2C_Bangkok%2C_Thailand_Silom-Sathorn_CBD.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lumpini_Park,_Bangkok,_Thailand_Silom-Sathorn_CBD.JPG",
-    "artist": "Jarcje",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "credit": "Own work",
-    "description": "Lumpini Park, Bangkok, Thailand view of the Silom-Sathorn CBD April 2012",
-    "width": 4928,
-    "height": 3264,
-    "score": 0,
-    "file": "photos/candidates/the-siam-2.jpg",
-    "saved_size": [
-     1280,
-     848
-    ]
-   },
-   {
-    "title": "File:Dusit Thani Bangkok Demolished 2020.jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Dusit_Thani_Bangkok_Demolished_2020.jpg/1280px-Dusit_Thani_Bangkok_Demolished_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Dusit_Thani_Bangkok_Demolished_2020.jpg",
-    "artist": "Chainwit.",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "credit": "Own work",
-    "description": "Dusit Thani Hotel, Bangkok being demolished",
-    "width": 4032,
-    "height": 3024,
-    "score": 0,
-    "file": "photos/candidates/the-siam-3.jpg",
-    "saved_size": [
-     1280,
-     960
-    ]
-   }
-  ],
-  "considered": 8
+  "considered": 4
  },
  "park-hyatt": {
   "name": "Park Hyatt Bangkok",
   "candidates": [
    {
-    "title": "File:富士電機 (5277933574).jpg",
+    "title": "File:The Park Chidlom.jpg",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/%E5%AF%8C%E5%A3%AB%E9%9B%BB%E6%A9%9F_%285277933574%29.jpg/1280px-%E5%AF%8C%E5%A3%AB%E9%9B%BB%E6%A9%9F_%285277933574%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:%E5%AF%8C%E5%A3%AB%E9%9B%BB%E6%A9%9F_(5277933574).jpg",
-    "artist": "|| UggBoy♥UggGirl || PHOTO || WORLD || TRAVEL ||",
-    "license": "CC BY 2.0",
-    "license_url": "https://creativecommons.org/licenses/by/2.0",
-    "credit": "[ Grand Deluxe Room View ] The Peninsula Tokyo, Japan",
-    "description": "The Peninsula Tokyo is a hotel located at Yurakucho, Chiyoda, Tokyo, Japan. It opened in September 1, 2007, and is managed by Malcolm Thompson, former General Manager of the Park Hyatt Tokyo.\nFacts ab",
-    "width": 4288,
-    "height": 2848,
-    "score": 2,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/The_Park_Chidlom.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Park_Chidlom.jpg",
+    "artist": "Bigcitydata",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "description": "The Park Chidlom, viewed from Central Embassy / the Park Hyatt Bangkok",
+    "width": 1241,
+    "height": 1655,
+    "score": 5,
     "file": "photos/candidates/park-hyatt-1.jpg",
     "saved_size": [
-     1280,
-     850
+     960,
+     1280
     ]
    },
    {
-    "title": "File:The Peninsula Tokyo (5277867926).jpg",
+    "title": "File:Vibrant Dusk (Unsplash).jpg",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/The_Peninsula_Tokyo_%285277867926%29.jpg/1280px-The_Peninsula_Tokyo_%285277867926%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:The_Peninsula_Tokyo_(5277867926).jpg",
-    "artist": "|| UggBoy♥UggGirl || PHOTO || WORLD || TRAVEL ||",
-    "license": "CC BY 2.0",
-    "license_url": "https://creativecommons.org/licenses/by/2.0",
-    "credit": "[ Grand Deluxe Room ] The Peninsula Tokyo, Japan",
-    "description": "The Peninsula Tokyo is a hotel located at Yurakucho, Chiyoda, Tokyo, Japan. It opened in September 1, 2007, and is managed by Malcolm Thompson, former General Manager of the Park Hyatt Tokyo.\nFacts ab",
-    "width": 4288,
-    "height": 2848,
-    "score": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Vibrant_Dusk_%28Unsplash%29.jpg/1280px-Vibrant_Dusk_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Vibrant_Dusk_(Unsplash).jpg",
+    "artist": "Ryan Tang ryz0n",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "https://unsplash.com/photos/evLIkrue9G0\narchive copy at the Wayback Machine\n\nImage at the Wayback Machine",
+    "description": "Central Embassy, Bangkok, Thailand",
+    "width": 6000,
+    "height": 4000,
+    "score": 3,
     "file": "photos/candidates/park-hyatt-2.jpg",
     "saved_size": [
      1280,
-     850
+     853
     ]
    },
    {
-    "title": "File:富士電機 (5277964378).jpg",
+    "title": "File:Passing through (Unsplash).jpg",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/%E5%AF%8C%E5%A3%AB%E9%9B%BB%E6%A9%9F_%285277964378%29.jpg/1280px-%E5%AF%8C%E5%A3%AB%E9%9B%BB%E6%A9%9F_%285277964378%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:%E5%AF%8C%E5%A3%AB%E9%9B%BB%E6%A9%9F_(5277964378).jpg",
-    "artist": "|| UggBoy♥UggGirl || PHOTO || WORLD || TRAVEL ||",
-    "license": "CC BY 2.0",
-    "license_url": "https://creativecommons.org/licenses/by/2.0",
-    "credit": "[ Grand Deluxe Room Night Views ] The Peninsula Tokyo, Japan",
-    "description": "The Peninsula Tokyo is a hotel located at Yurakucho, Chiyoda, Tokyo, Japan. It opened in September 1, 2007, and is managed by Malcolm Thompson, former General Manager of the Park Hyatt Tokyo.\nFacts ab",
-    "width": 4288,
-    "height": 2848,
-    "score": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Passing_through_%28Unsplash%29.jpg/1280px-Passing_through_%28Unsplash%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Passing_through_(Unsplash).jpg",
+    "artist": "Ryan Tang ryz0n",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "credit": "https://unsplash.com/photos/8OyZGH43-p4\nImage at the Wayback Machine\n\nGallery at the Wayback Machine",
+    "description": "Central Embassy Mall, Bangkok, Thailand",
+    "width": 6000,
+    "height": 4000,
+    "score": 3,
     "file": "photos/candidates/park-hyatt-3.jpg",
     "saved_size": [
      1280,
-     850
+     853
     ]
    }
   ],
-  "considered": 19
+  "considered": 15
  },
  "rosewood": {
   "name": "Rosewood Bangkok",
@@ -345,7 +325,7 @@
    {
     "title": "File:Rosewood Bangkok 2021.jpg",
     "source": "wikipedia-article",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Rosewood_Bangkok_2021.jpg/1280px-Rosewood_Bangkok_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Rosewood_Bangkok_2021.jpg/1280px-Rosewood_Bangkok_2021.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Rosewood_Bangkok_2021.jpg",
     "artist": "Chainwit.",
     "license": "CC BY-SA 4.0",
@@ -354,7 +334,7 @@
     "description": "Rosewood Bangkok",
     "width": 3024,
     "height": 4032,
-    "score": 1,
+    "score": 4,
     "file": "photos/candidates/rosewood-1.jpg",
     "saved_size": [
      960,
@@ -373,7 +353,7 @@
     "description": "Rosewood Hotel in Bangkok as seen from the front entrance of Park Ventures.",
     "width": 3000,
     "height": 4000,
-    "score": 1,
+    "score": 4,
     "file": "photos/candidates/rosewood-2.jpg",
     "saved_size": [
      960,
@@ -400,74 +380,55 @@
     ]
    }
   ],
-  "considered": 4
+  "considered": 3
  },
  "waldorf-astoria": {
   "name": "Waldorf Astoria Bangkok",
   "candidates": [
    {
-    "title": "File:Magnolias Ratchadamri - Waldorf Astoria Bangkok.jpg",
+    "title": "File:Magnolias Ratchadamri Boulevard 2.jpg",
     "source": "commons-search",
-    "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Magnolias_Ratchadamri_-_Waldorf_Astoria_Bangkok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "page": "https://commons.wikimedia.org/wiki/File:Magnolias_Ratchadamri_-_Waldorf_Astoria_Bangkok.jpg",
-    "artist": "Bigcitydata",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Magnolias_Ratchadamri_Boulevard_2.jpg/1280px-Magnolias_Ratchadamri_Boulevard_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Magnolias_Ratchadamri_Boulevard_2.jpg",
+    "artist": "Supanut Arunoprayote",
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "credit": "Own work",
-    "description": "Magnolias Ratchadamri and Waldorf Astoria Bangkok Hotel",
-    "width": 1132,
-    "height": 2320,
+    "credit": "Derived from File:Bangkok Pano (III).jpg",
+    "description": "Magnolias Ratchadamri Boulevard, Bangkok",
+    "width": 1650,
+    "height": 2933,
     "score": 2,
     "file": "photos/candidates/waldorf-astoria-1.jpg",
     "saved_size": [
-     625,
+     720,
      1280
-    ]
-   },
-   {
-    "title": "File:Royal Bangkok Sports Club Pano (II).jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Royal_Bangkok_Sports_Club_Pano_%28II%29.jpg/1280px-Royal_Bangkok_Sports_Club_Pano_%28II%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Royal_Bangkok_Sports_Club_Pano_(II).jpg",
-    "artist": "Supanut Arunoprayote",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0",
-    "credit": "Own work",
-    "description": "The Panoramic view of Royal Bangkok Sports Club, Bangkok.",
-    "width": 13612,
-    "height": 4290,
-    "score": 0,
-    "file": "photos/candidates/waldorf-astoria-2.jpg",
-    "saved_size": [
-     1280,
-     403
-    ]
-   },
-   {
-    "title": "File:Bangkok sunset from The Speakeasy 1.jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Bangkok_sunset_from_The_Speakeasy_1.jpg/1280px-Bangkok_sunset_from_The_Speakeasy_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bangkok_sunset_from_The_Speakeasy_1.jpg",
-    "artist": "kallerna",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "credit": "Own work",
-    "description": "Sunset seen from The Speakeasy -rooftop bar, Bangkok.",
-    "width": 9305,
-    "height": 5000,
-    "score": 0,
-    "file": "photos/candidates/waldorf-astoria-3.jpg",
-    "saved_size": [
-     1280,
-     688
     ]
    }
   ],
-  "considered": 8
+  "considered": 1
  },
  "anantara-siam": {
   "name": "Anantara Siam Bangkok Hotel",
   "candidates": [
+   {
+    "title": "File:Anantara Siam Bangkok Hotel bell.jpg",
+    "source": "wikipedia-article",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Anantara_Siam_Bangkok_Hotel_bell.jpg/1280px-Anantara_Siam_Bangkok_Hotel_bell.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Anantara_Siam_Bangkok_Hotel_bell.jpg",
+    "artist": "Chainwit.",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "description": "Anantara Siam Bangkok Hotel",
+    "width": 4032,
+    "height": 3024,
+    "score": 6,
+    "file": "photos/candidates/anantara-siam-1.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
+   },
    {
     "title": "File:Anantara Siam 20251206.jpg",
     "source": "commons-search",
@@ -480,30 +441,11 @@
     "description": "Anantara Siam, Pathum Wan, Bangkok",
     "width": 5712,
     "height": 3213,
-    "score": 2,
-    "file": "photos/candidates/anantara-siam-1.jpg",
-    "saved_size": [
-     1280,
-     720
-    ]
-   },
-   {
-    "title": "File:Anantara Siam Bangkok Hotel bell.jpg",
-    "source": "wikipedia-article",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Anantara_Siam_Bangkok_Hotel_bell.jpg/1280px-Anantara_Siam_Bangkok_Hotel_bell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Anantara_Siam_Bangkok_Hotel_bell.jpg",
-    "artist": "Chainwit.",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "credit": "Own work",
-    "description": "Anantara Siam Bangkok Hotel",
-    "width": 4032,
-    "height": 3024,
-    "score": 2,
+    "score": 3,
     "file": "photos/candidates/anantara-siam-2.jpg",
     "saved_size": [
      1280,
-     960
+     720
     ]
    },
    {
@@ -518,7 +460,7 @@
     "description": "Four Seasons Hotel, Bangkok, Thailand",
     "width": 4000,
     "height": 3000,
-    "score": 0,
+    "score": 3,
     "file": "photos/candidates/anantara-siam-3.jpg",
     "saved_size": [
      1280,
@@ -543,7 +485,7 @@
     "description": "Mr. Antonio Tajani ( Center ) Vice President of European Commission , H.E. Prasert Boonchaisuk ( L ) Minister of Industry and H.E. Mr Somsak Pureerisak, Minister of Tourism and Sport take a group phot",
     "width": 5424,
     "height": 3648,
-    "score": 1,
+    "score": 2,
     "file": "photos/candidates/st-regis-1.jpg",
     "saved_size": [
      1280,
@@ -568,28 +510,9 @@
      960,
      1280
     ]
-   },
-   {
-    "title": "File:Royal Bangkok Sports Club Pano (II).jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Royal_Bangkok_Sports_Club_Pano_%28II%29.jpg/1280px-Royal_Bangkok_Sports_Club_Pano_%28II%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Royal_Bangkok_Sports_Club_Pano_(II).jpg",
-    "artist": "Supanut Arunoprayote",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0",
-    "credit": "Own work",
-    "description": "The Panoramic view of Royal Bangkok Sports Club, Bangkok.",
-    "width": 13612,
-    "height": 4290,
-    "score": 0,
-    "file": "photos/candidates/st-regis-3.jpg",
-    "saved_size": [
-     1280,
-     403
-    ]
    }
   ],
-  "considered": 5
+  "considered": 2
  },
  "siam-kempinski": {
   "name": "Siam Kempinski Hotel Bangkok",
@@ -641,7 +564,7 @@
    {
     "title": "File:Kimpton Maa-Lai Bangkok, an IHG Hotel - SHA Extra Plus.jpg",
     "source": "wikidata",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Kimpton_Maa-Lai_Bangkok%2C_an_IHG_Hotel_-_SHA_Extra_Plus.jpg/1280px-Kimpton_Maa-Lai_Bangkok%2C_an_IHG_Hotel_-_SHA_Extra_Plus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Kimpton_Maa-Lai_Bangkok%2C_an_IHG_Hotel_-_SHA_Extra_Plus.jpg/1280px-Kimpton_Maa-Lai_Bangkok%2C_an_IHG_Hotel_-_SHA_Extra_Plus.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Kimpton_Maa-Lai_Bangkok,_an_IHG_Hotel_-_SHA_Extra_Plus.jpg",
     "artist": "Syced",
     "license": "CC0",
@@ -650,7 +573,7 @@
     "description": "Kimpton Maa-Lai Bangkok, an IHG Hotel - SHA Extra Plus (hotel in Bangkok, Thailand)",
     "width": 3072,
     "height": 4080,
-    "score": 5,
+    "score": 8,
     "file": "photos/candidates/kimpton-maa-lai-1.jpg",
     "saved_size": [
      964,
@@ -669,7 +592,7 @@
     "description": "View from Kimpton Maa-Lai Bangkok",
     "width": 4032,
     "height": 2268,
-    "score": 3,
+    "score": 7,
     "file": "photos/candidates/kimpton-maa-lai-2.jpg",
     "saved_size": [
      1280,
@@ -688,7 +611,7 @@
     "description": "Bar at Kimpton Maa-Lai Bangkok",
     "width": 4032,
     "height": 2268,
-    "score": 3,
+    "score": 7,
     "file": "photos/candidates/kimpton-maa-lai-3.jpg",
     "saved_size": [
      1280,
@@ -727,6 +650,25 @@
   "name": "Aman Nai Lert Bangkok",
   "candidates": [
    {
+    "title": "File:Nai Lert Park - panoramio.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Nai_Lert_Park_-_panoramio.jpg/1280px-Nai_Lert_Park_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nai_Lert_Park_-_panoramio.jpg",
+    "artist": "harley photo",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "credit": "https://web.archive.org/web/20161011063836/http://www.panoramio.com/photo/6593753",
+    "description": "Nai Lert Park",
+    "width": 4368,
+    "height": 2912,
+    "score": 3,
+    "file": "photos/candidates/aman-nai-lert-1.jpg",
+    "saved_size": [
+     1280,
+     853
+    ]
+   },
+   {
     "title": "File:Park Nai Lert Hotel (now Mövenpick BDMS Wellness Resort Bangkok) 2022August img 01.jpg",
     "source": "commons-search",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Park_Nai_Lert_Hotel_%28now_M%C3%B6venpick_BDMS_Wellness_Resort_Bangkok%29_2022August_img_01.jpg/1280px-Park_Nai_Lert_Hotel_%28now_M%C3%B6venpick_BDMS_Wellness_Resort_Bangkok%29_2022August_img_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -738,8 +680,8 @@
     "description": "Mövenpick BDMS Wellness Resort Bangkok (Formerly Nai Lert Park Hotel)",
     "width": 4032,
     "height": 3024,
-    "score": 2,
-    "file": "photos/candidates/aman-nai-lert-1.jpg",
+    "score": 3,
+    "file": "photos/candidates/aman-nai-lert-2.jpg",
     "saved_size": [
      1280,
      960
@@ -757,26 +699,7 @@
     "description": "Mövenpick BDMS Wellness Resort Bangkok (Formerly Nai Lert Park Hotel)",
     "width": 4032,
     "height": 3024,
-    "score": 2,
-    "file": "photos/candidates/aman-nai-lert-2.jpg",
-    "saved_size": [
-     1280,
-     960
-    ]
-   },
-   {
-    "title": "File:Park Nai Lert Hotel (now Mövenpick BDMS Wellness Resort Bangkok) 2022August img 05.jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Park_Nai_Lert_Hotel_%28now_M%C3%B6venpick_BDMS_Wellness_Resort_Bangkok%29_2022August_img_05.jpg/1280px-Park_Nai_Lert_Hotel_%28now_M%C3%B6venpick_BDMS_Wellness_Resort_Bangkok%29_2022August_img_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Park_Nai_Lert_Hotel_(now_M%C3%B6venpick_BDMS_Wellness_Resort_Bangkok)_2022August_img_05.jpg",
-    "artist": "Chainwit.",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "credit": "Own work",
-    "description": "Mövenpick BDMS Wellness Resort Bangkok (Formerly Nai Lert Park Hotel)",
-    "width": 4032,
-    "height": 3024,
-    "score": 2,
+    "score": 3,
     "file": "photos/candidates/aman-nai-lert-3.jpg",
     "saved_size": [
      1280,
@@ -784,116 +707,97 @@
     ]
    }
   ],
-  "considered": 13
+  "considered": 9
  },
  "ritz-carlton": {
   "name": "The Ritz-Carlton, Bangkok",
   "candidates": [
    {
-    "title": "File:The Ritz Carlton, Bangkok - One Bangkok (2024-10-26) - img 03.jpg",
+    "title": "File:\"Freedom 250\" campaign, celebrating the United States of America’s 250th birthday (2).jpg",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/The_Ritz_Carlton%2C_Bangkok_-_One_Bangkok_%282024-10-26%29_-_img_03.jpg/1280px-The_Ritz_Carlton%2C_Bangkok_-_One_Bangkok_%282024-10-26%29_-_img_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:The_Ritz_Carlton,_Bangkok_-_One_Bangkok_(2024-10-26)_-_img_03.jpg",
-    "artist": "Chainwit.",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0",
-    "credit": "Own work",
-    "description": "The Ritz Carlton, Bangkok is located in the One Bangkok complex",
-    "width": 3024,
-    "height": 4032,
-    "score": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/%22Freedom_250%22_campaign%2C_celebrating_the_United_States_of_America%E2%80%99s_250th_birthday_%282%29.jpg/1280px-%22Freedom_250%22_campaign%2C_celebrating_the_United_States_of_America%E2%80%99s_250th_birthday_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%22Freedom_250%22_campaign,_celebrating_the_United_States_of_America%E2%80%99s_250th_birthday_(2).jpg",
+    "artist": "U.S. Embassy Bangkok",
+    "license": "Public domain",
+    "license_url": "",
+    "credit": "https://www.facebook.com/share/p/1DrK9RFDP9/",
+    "description": "ผู้แทนจากภาครัฐ ภาคเอกชน เข้าร่วมงานเลี้ยงรับรอง เนื่องในโอกาสวันชาติสหรัฐอเมริกา ประจำปี 2569 และครบรอบ 250 ปี การประกาศเอกราชของสหรัฐอเมริกา ณ โรงแรม The Ritz-Carlton, One Bangkok ถ.วิทยุ เขตปทุมวัน",
+    "width": 2048,
+    "height": 1365,
+    "score": 3,
     "file": "photos/candidates/ritz-carlton-1.jpg",
     "saved_size": [
-     960,
-     1280
+     1280,
+     853
     ]
    },
    {
-    "title": "File:The Ritz Carlton, Bangkok - One Bangkok (2024-10-26) - img 02.jpg",
+    "title": "File:\"Freedom 250\" campaign, celebrating the United States of America’s 250th birthday (3).jpg",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/The_Ritz_Carlton%2C_Bangkok_-_One_Bangkok_%282024-10-26%29_-_img_02.jpg/1280px-The_Ritz_Carlton%2C_Bangkok_-_One_Bangkok_%282024-10-26%29_-_img_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:The_Ritz_Carlton,_Bangkok_-_One_Bangkok_(2024-10-26)_-_img_02.jpg",
-    "artist": "Chainwit.",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0",
-    "credit": "Own work",
-    "description": "The Ritz Carlton, Bangkok is located in the One Bangkok complex",
-    "width": 3024,
-    "height": 4032,
-    "score": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/%22Freedom_250%22_campaign%2C_celebrating_the_United_States_of_America%E2%80%99s_250th_birthday_%283%29.jpg/1280px-%22Freedom_250%22_campaign%2C_celebrating_the_United_States_of_America%E2%80%99s_250th_birthday_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%22Freedom_250%22_campaign,_celebrating_the_United_States_of_America%E2%80%99s_250th_birthday_(3).jpg",
+    "artist": "U.S. Embassy Bangkok",
+    "license": "Public domain",
+    "license_url": "",
+    "credit": "https://www.facebook.com/share/p/1DrK9RFDP9/",
+    "description": "ผู้แทนจากภาครัฐ ภาคเอกชน เข้าร่วมงานเลี้ยงรับรอง เนื่องในโอกาสวันชาติสหรัฐอเมริกา ประจำปี 2569 และครบรอบ 250 ปี การประกาศเอกราชของสหรัฐอเมริกา ณ โรงแรม The Ritz-Carlton, One Bangkok ถ.วิทยุ เขตปทุมวัน",
+    "width": 2048,
+    "height": 1365,
+    "score": 3,
     "file": "photos/candidates/ritz-carlton-2.jpg",
     "saved_size": [
-     960,
-     1280
+     1280,
+     853
     ]
    },
    {
-    "title": "File:The Ritz Carlton, Bangkok - One Bangkok (2024-10-26) - img 01.jpg",
+    "title": "File:\"Freedom 250\" campaign, celebrating the United States of America’s 250th birthday (1).jpg",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/The_Ritz_Carlton%2C_Bangkok_-_One_Bangkok_%282024-10-26%29_-_img_01.jpg/1280px-The_Ritz_Carlton%2C_Bangkok_-_One_Bangkok_%282024-10-26%29_-_img_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:The_Ritz_Carlton,_Bangkok_-_One_Bangkok_(2024-10-26)_-_img_01.jpg",
-    "artist": "Chainwit.",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0",
-    "credit": "Own work",
-    "description": "The Ritz Carlton, Bangkok is located in the One Bangkok complex",
-    "width": 3024,
-    "height": 4032,
-    "score": 2,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/%22Freedom_250%22_campaign%2C_celebrating_the_United_States_of_America%E2%80%99s_250th_birthday_%281%29.jpg/1280px-%22Freedom_250%22_campaign%2C_celebrating_the_United_States_of_America%E2%80%99s_250th_birthday_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%22Freedom_250%22_campaign,_celebrating_the_United_States_of_America%E2%80%99s_250th_birthday_(1).jpg",
+    "artist": "U.S. Embassy Bangkok",
+    "license": "Public domain",
+    "license_url": "",
+    "credit": "https://www.facebook.com/share/p/1DrK9RFDP9/",
+    "description": "นายอนุทิน ชาญวีรกูล นายกรัฐมนตรีและภริยา เข้าร่วมงานเลี้ยงรับรอง เนื่องในโอกาสวันชาติสหรัฐอเมริกา ประจำปี 2569 และครบรอบ 250 ปี การประกาศเอกราชของสหรัฐอเมริกา ณ โรงแรม The Ritz-Carlton, One Bangkok ถ.",
+    "width": 2048,
+    "height": 1365,
+    "score": 3,
     "file": "photos/candidates/ritz-carlton-3.jpg",
     "saved_size": [
-     960,
-     1280
+     1280,
+     853
     ]
    }
   ],
-  "considered": 31
+  "considered": 6
  },
  "dusit-thani": {
   "name": "Dusit Thani Bangkok",
   "candidates": [
    {
-    "title": "File:Dusit Central Park ดุสิต เซ็นทรัล พาร์ค (under construction) 2021.jpg",
-    "source": "wikipedia-article",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Dusit_Central_Park_%E0%B8%94%E0%B8%B8%E0%B8%AA%E0%B8%B4%E0%B8%95_%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%A5_%E0%B8%9E%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%84_%28under_construction%29_2021.jpg/1280px-Dusit_Central_Park_%E0%B8%94%E0%B8%B8%E0%B8%AA%E0%B8%B4%E0%B8%95_%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%A5_%E0%B8%9E%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%84_%28under_construction%29_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Dusit_Central_Park_%E0%B8%94%E0%B8%B8%E0%B8%AA%E0%B8%B4%E0%B8%95_%E0%B9%80%E0%B8%8B%E0%B9%87%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%B1%E0%B8%A5_%E0%B8%9E%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%84_(under_construction)_2021.jpg",
-    "artist": "Chainwit.",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "credit": "Own work",
-    "description": "Dusit Thani Bangkok (under construction) 2021",
-    "width": 4032,
-    "height": 3024,
-    "score": 2,
+    "title": "File:Rama4 road-Suriya Wong, Bang Rak, Bangkok, Thái Lan - panoramio.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Rama4_road-Suriya_Wong%2C_Bang_Rak%2C_Bangkok%2C_Th%C3%A1i_Lan_-_panoramio.jpg/1280px-Rama4_road-Suriya_Wong%2C_Bang_Rak%2C_Bangkok%2C_Th%C3%A1i_Lan_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rama4_road-Suriya_Wong,_Bang_Rak,_Bangkok,_Th%C3%A1i_Lan_-_panoramio.jpg",
+    "artist": "trungydang",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "credit": "https://web.archive.org/web/20161102010407/http://www.panoramio.com/photo/118793651",
+    "description": "Sala Daeng Junction and Thai-Japanese bridge (Dusit Thani Hotel left). Linkage point between BTS Silom Line and MRT Blue Line, Bang Rak, Bangkok, Thái Lan",
+    "width": 2592,
+    "height": 1936,
+    "score": 3,
     "file": "photos/candidates/dusit-thani-1.jpg",
     "saved_size": [
      1280,
-     960
-    ]
-   },
-   {
-    "title": "File:Dusit Thani Bangkok Demolished 2020.jpg",
-    "source": "wikipedia-article",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Dusit_Thani_Bangkok_Demolished_2020.jpg/1280px-Dusit_Thani_Bangkok_Demolished_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Dusit_Thani_Bangkok_Demolished_2020.jpg",
-    "artist": "Chainwit.",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "credit": "Own work",
-    "description": "Dusit Thani Hotel, Bangkok being demolished",
-    "width": 4032,
-    "height": 3024,
-    "score": 2,
-    "file": "photos/candidates/dusit-thani-2.jpg",
-    "saved_size": [
-     1280,
-     960
+     956
     ]
    },
    {
     "title": "File:Hotel Dusit Thani, Bangkok, Tailandia, 2013-08-22, DD 01.jpg",
     "source": "wikipedia-article",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Hotel_Dusit_Thani%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_01.jpg/1280px-Hotel_Dusit_Thani%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Hotel_Dusit_Thani%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_01.jpg/1280px-Hotel_Dusit_Thani%2C_Bangkok%2C_Tailandia%2C_2013-08-22%2C_DD_01.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Hotel_Dusit_Thani,_Bangkok,_Tailandia,_2013-08-22,_DD_01.jpg",
     "artist": "Diego Delso",
     "license": "CC BY-SA 3.0",
@@ -903,203 +807,222 @@
     "width": 3076,
     "height": 4239,
     "score": 2,
-    "file": "photos/candidates/dusit-thani-3.jpg",
+    "file": "photos/candidates/dusit-thani-2.jpg",
     "saved_size": [
      929,
      1280
     ]
+   },
+   {
+    "title": "File:Dusit Thani Hotel 2018-06-30.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Dusit_Thani_Hotel_2018-06-30.jpg/1280px-Dusit_Thani_Hotel_2018-06-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dusit_Thani_Hotel_2018-06-30.jpg",
+    "artist": "Sry85",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "description": "Dusit Thani Hotel, Silom road entrance.",
+    "width": 2976,
+    "height": 3968,
+    "score": 2,
+    "file": "photos/candidates/dusit-thani-3.jpg",
+    "saved_size": [
+     960,
+     1280
+    ]
    }
   ],
-  "considered": 11
+  "considered": 4
  },
  "standard-mahanakhon": {
   "name": "The Standard, Bangkok Mahanakhon",
   "candidates": [
    {
-    "title": "File:Bangkok city panorama.jpg",
+    "title": "File:King Power Mahanakhon Rooftop View of Bangkok.jpg",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Bangkok_city_panorama.jpg/1280px-Bangkok_city_panorama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Bangkok_city_panorama.jpg",
-    "artist": "Bigcitydata",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/King_Power_Mahanakhon_Rooftop_View_of_Bangkok.jpg/1280px-King_Power_Mahanakhon_Rooftop_View_of_Bangkok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:King_Power_Mahanakhon_Rooftop_View_of_Bangkok.jpg",
+    "artist": "Shivashanky",
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "credit": "Own work",
-    "description": "View of Bangkok skyline from King Power Mahanakhon Tower",
-    "width": 15022,
-    "height": 3444,
-    "score": 1,
+    "description": "King Power Mahanakhon Rooftop View of Bangkok",
+    "width": 4000,
+    "height": 3000,
+    "score": 4,
     "file": "photos/candidates/standard-mahanakhon-1.jpg",
     "saved_size": [
      1280,
-     293
+     960
     ]
    },
    {
-    "title": "File:Panorama of Bangkok towards Lumphini Park from Mahanakhon Terrace.jpg",
+    "title": "File:Bangkok (King Power Mahanakhon) skyscraper.jpg",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Panorama_of_Bangkok_towards_Lumphini_Park_from_Mahanakhon_Terrace.jpg/1280px-Panorama_of_Bangkok_towards_Lumphini_Park_from_Mahanakhon_Terrace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Panorama_of_Bangkok_towards_Lumphini_Park_from_Mahanakhon_Terrace.jpg",
-    "artist": "iMahesh",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Bangkok_%28King_Power_Mahanakhon%29_skyscraper.jpg/1280px-Bangkok_%28King_Power_Mahanakhon%29_skyscraper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bangkok_(King_Power_Mahanakhon)_skyscraper.jpg",
+    "artist": "Ram Samudrala",
     "license": "CC BY-SA 4.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
     "credit": "Own work",
-    "description": "Panorama of Bangkok towards Lumphini Park from Mahanakhon Terrace",
-    "width": 8130,
-    "height": 3093,
-    "score": 1,
+    "description": "Bangkok skyscraper unique angle",
+    "width": 3024,
+    "height": 4032,
+    "score": 3,
     "file": "photos/candidates/standard-mahanakhon-2.jpg",
     "saved_size": [
-     1280,
-     487
+     960,
+     1280
     ]
    },
    {
-    "title": "File:Skyscrapers of Bangkok during a sunset from Mahanakhon terrace.jpg",
+    "title": "File:King Power Mahanakhon, Chong Nonsi, Bangkok (48108018302).jpg",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Skyscrapers_of_Bangkok_during_a_sunset_from_Mahanakhon_terrace.jpg/1280px-Skyscrapers_of_Bangkok_during_a_sunset_from_Mahanakhon_terrace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Skyscrapers_of_Bangkok_during_a_sunset_from_Mahanakhon_terrace.jpg",
-    "artist": "iMahesh",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "credit": "Own work",
-    "description": "Skyscrapers of Bangkok during a sunset from Mahanakhon terrace",
-    "width": 6000,
-    "height": 4000,
-    "score": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/King_Power_Mahanakhon%2C_Chong_Nonsi%2C_Bangkok_%2848108018302%29.jpg/1280px-King_Power_Mahanakhon%2C_Chong_Nonsi%2C_Bangkok_%2848108018302%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:King_Power_Mahanakhon,_Chong_Nonsi,_Bangkok_(48108018302).jpg",
+    "artist": "Fabio Achilli from Milano, Italy",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "credit": "King Power Mahanakhon, Chong Nonsi, Bangkok",
+    "description": "King Power Mahanakhon, Chong Nonsi, between Silom Road and Sathorn Road in the CBD of Bangkok",
+    "width": 2530,
+    "height": 3640,
+    "score": 3,
     "file": "photos/candidates/standard-mahanakhon-3.jpg",
     "saved_size": [
-     1280,
-     853
+     889,
+     1280
     ]
    }
   ],
-  "considered": 18
+  "considered": 13
  },
  "conrad": {
   "name": "Conrad Bangkok",
   "candidates": [
    {
-    "title": "File:Conrad Bangkok hotel room in 2014.jpg",
+    "title": "File:All Seasons Place awash with light in 2009 2.jpg",
     "source": "wikipedia-article",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Conrad_Bangkok_hotel_room_in_2014.jpg/1280px-Conrad_Bangkok_hotel_room_in_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Conrad_Bangkok_hotel_room_in_2014.jpg",
-    "artist": "Marcus Andersson",
-    "license": "CC BY 2.0",
-    "license_url": "https://creativecommons.org/licenses/by/2.0",
-    "credit": "https://www.flickr.com/photos/travelingswede/17125428027/",
-    "description": "A Conrad Bangkok hotel room",
-    "width": 6016,
-    "height": 4016,
-    "score": 1,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/All_Seasons_Place_awash_with_light_in_2009_2.jpg/1280px-All_Seasons_Place_awash_with_light_in_2009_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:All_Seasons_Place_awash_with_light_in_2009_2.jpg",
+    "artist": "Mark Fischer",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "credit": "https://www.flickr.com/photos/fischerfotos/14757844546/",
+    "description": "The All Seasons Place in Bangkok is awash with light at night. This complex houses retail stores, office space, and the Conrad Bangkok hotel.",
+    "width": 3875,
+    "height": 2574,
+    "score": 8,
     "file": "photos/candidates/conrad-1.jpg",
     "saved_size": [
      1280,
-     854
+     850
     ]
    },
    {
-    "title": "File:Tour China Ressources Center 2.jpg",
+    "title": "File:All Seasons Place & Conrad Bangkok (2021).jpg",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Tour_China_Ressources_Center_2.jpg/1280px-Tour_China_Ressources_Center_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Tour_China_Ressources_Center_2.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/All_Seasons_Place_%26_Conrad_Bangkok_%282021%29.jpg/1280px-All_Seasons_Place_%26_Conrad_Bangkok_%282021%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:All_Seasons_Place_%26_Conrad_Bangkok_(2021).jpg",
+    "artist": "Chainwit.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "credit": "Own work",
+    "description": "This file was derived from:  ถนนวิทยุ Wirless Road (aka Witthayu Road ).jpg",
+    "width": 2148,
+    "height": 1611,
+    "score": 8,
+    "file": "photos/candidates/conrad-2.jpg",
+    "saved_size": [
+     1280,
+     960
+    ]
+   },
+   {
+    "title": "File:All Seasons Place awash with light in 2009 1.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/All_Seasons_Place_awash_with_light_in_2009_1.jpg/1280px-All_Seasons_Place_awash_with_light_in_2009_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:All_Seasons_Place_awash_with_light_in_2009_1.jpg",
+    "artist": "Mark Fischer",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "credit": "https://www.flickr.com/photos/fischerfotos/7432099052/",
+    "description": "The All Seasons Place in Bangkok is awash with light at night. This complex houses retail stores, office space, and the Conrad Bangkok hotel.",
+    "width": 2259,
+    "height": 3401,
+    "score": 7,
+    "file": "photos/candidates/conrad-3.jpg",
+    "saved_size": [
+     850,
+     1280
+    ]
+   }
+  ],
+  "considered": 19
+ },
+ "so-bangkok": {
+  "name": "SO/ Bangkok",
+  "candidates": [
+   {
+    "title": "File:Hôtel Sofitel So.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/H%C3%B4tel_Sofitel_So.jpg/1280px-H%C3%B4tel_Sofitel_So.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_Sofitel_So.jpg",
     "artist": "Welcome to Thailand",
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "credit": "Own work",
-    "description": "Ensemble All Season Place : tour China Ressources Center, Hôtel Conrad... ainsi que les toits colorés rouge et vert de l'église Holy Redeemer Church, vue du Green Bridge, passerelle reliant le parc Lu",
-    "width": 5161,
-    "height": 3441,
-    "score": 1,
-    "file": "photos/candidates/conrad-2.jpg",
+    "description": "Hôtel Sofitel So vu du parc Lumpini, Khet Pathum Wan, Bangkok",
+    "width": 5472,
+    "height": 3648,
+    "score": 2,
+    "file": "photos/candidates/so-bangkok-1.jpg",
     "saved_size": [
      1280,
      853
     ]
    },
    {
-    "title": "File:Conrads in Lumpini (BKK).jpg",
+    "title": "File:Bangkok desde piscina Sofitel Silom - panoramio.jpg",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Conrads_in_Lumpini_%28BKK%29.jpg/1280px-Conrads_in_Lumpini_%28BKK%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Conrads_in_Lumpini_(BKK).jpg",
-    "artist": "Hans-Jürgen Neubert",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0",
-    "credit": "Own work",
-    "description": "Capital Tower-All Seasons Place",
-    "width": 4256,
-    "height": 2832,
-    "score": 1,
-    "file": "photos/candidates/conrad-3.jpg",
-    "saved_size": [
-     1280,
-     852
-    ]
-   }
-  ],
-  "considered": 22
- },
- "so-bangkok": {
-  "name": "SO/ Bangkok",
-  "candidates": [
-   {
-    "title": "File:Piscina Sofitel Silom bangkok - panoramio.jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Piscina_Sofitel_Silom_bangkok_-_panoramio.jpg/1280px-Piscina_Sofitel_Silom_bangkok_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Piscina_Sofitel_Silom_bangkok_-_panoramio.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Bangkok_desde_piscina_Sofitel_Silom_-_panoramio.jpg/1280px-Bangkok_desde_piscina_Sofitel_Silom_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bangkok_desde_piscina_Sofitel_Silom_-_panoramio.jpg",
     "artist": "F.J.OGALLAR",
     "license": "CC BY-SA 3.0",
     "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "credit": "https://web.archive.org/web/20161014115437/http://www.panoramio.com/photo/28890725",
-    "description": "Piscina Sofitel Silom bangkok",
-    "width": 11063,
-    "height": 2858,
-    "score": 0,
-    "file": "photos/candidates/so-bangkok-1.jpg",
-    "saved_size": [
-     1280,
-     331
-    ]
-   },
-   {
-    "title": "File:Wat Pariwat Ratchasongkram ubosot Bangkok Thailand by Don Ramey Logan.jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Wat_Pariwat_Ratchasongkram_ubosot_Bangkok_Thailand_by_Don_Ramey_Logan.jpg/1280px-Wat_Pariwat_Ratchasongkram_ubosot_Bangkok_Thailand_by_Don_Ramey_Logan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Wat_Pariwat_Ratchasongkram_ubosot_Bangkok_Thailand_by_Don_Ramey_Logan.jpg",
-    "artist": "Don Ramey Logan",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0",
-    "credit": "Own work",
-    "description": "The \"Wat Pariwat Ubosot\" a Buddhist temple in Yan Nawa district Bangkok Thailand, by Don Ramey Logan and assisted by Parit Chaiyasak",
-    "width": 9013,
-    "height": 7210,
-    "score": 0,
+    "credit": "https://web.archive.org/web/20161013154027/http://www.panoramio.com/photo/27975332",
+    "description": "Bangkok desde piscina Sofitel Silom",
+    "width": 4272,
+    "height": 2848,
+    "score": 2,
     "file": "photos/candidates/so-bangkok-2.jpg",
     "saved_size": [
      1280,
-     1024
+     853
     ]
    },
    {
-    "title": "File:Panoramica Bangkok desde habitacion Sofitel Silom - panoramio.jpg",
+    "title": "File:Central Sofitel Bangkok.JPG",
     "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Panoramica_Bangkok_desde_habitacion_Sofitel_Silom_-_panoramio.jpg/1280px-Panoramica_Bangkok_desde_habitacion_Sofitel_Silom_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Panoramica_Bangkok_desde_habitacion_Sofitel_Silom_-_panoramio.jpg",
-    "artist": "F.J.OGALLAR",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "credit": "https://web.archive.org/web/20161014032558/http://www.panoramio.com/photo/28890630",
-    "description": "Panoramica Bangkok desde habitacion Sofitel Silom",
-    "width": 8469,
-    "height": 2495,
-    "score": 0,
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Central_Sofitel_Bangkok.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Central_Sofitel_Bangkok.JPG",
+    "artist": "No machine-readable author provided. Terence assumed (based on copyright claims).",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+    "description": "Central Sofitel Bangkok. Taken by Terence Ong in June 2006.",
+    "width": 1006,
+    "height": 1222,
+    "score": 1,
     "file": "photos/candidates/so-bangkok-3.jpg",
     "saved_size": [
-     1280,
-     377
+     1006,
+     1222
     ]
    }
   ],
-  "considered": 14
+  "considered": 3
  },
  "intercontinental": {
   "name": "InterContinental Bangkok",
@@ -1107,7 +1030,7 @@
    {
     "title": "File:InterContinental Bangkok, an Ihg Hotel.jpg",
     "source": "wikidata",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/InterContinental_Bangkok%2C_an_Ihg_Hotel.jpg/1280px-InterContinental_Bangkok%2C_an_Ihg_Hotel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/InterContinental_Bangkok%2C_an_Ihg_Hotel.jpg/1280px-InterContinental_Bangkok%2C_an_Ihg_Hotel.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:InterContinental_Bangkok,_an_Ihg_Hotel.jpg",
     "artist": "Syced",
     "license": "CC0",
@@ -1116,7 +1039,7 @@
     "description": "InterContinental Bangkok, an Ihg Hotel (hotel in Bangkok, Thailand)",
     "width": 4080,
     "height": 3072,
-    "score": 3,
+    "score": 7,
     "file": "photos/candidates/intercontinental-1.jpg",
     "saved_size": [
      1280,
@@ -1135,7 +1058,7 @@
     "description": "นายกรัฐมนตรี ร่วมงานและกล่าวสุนทรพจน์ในงานเลี้ยงอาหารค่ำประจำปีของสมาคมผู้สื่อข่าวต่างประเทศแห่งประเทศไทย (FCCT) ณ ห้อง Grand Ballroom โรงแรม InterContinental Bangkok Hotel กรุงเทพฯ     วันจันทร์ ที่ ",
     "width": 5120,
     "height": 3413,
-    "score": 1,
+    "score": 5,
     "file": "photos/candidates/intercontinental-2.jpg",
     "saved_size": [
      1280,
@@ -1154,7 +1077,7 @@
     "description": "นายกรัฐมนตรี ร่วมงานและกล่าวสุนทรพจน์ในงานเลี้ยงอาหารค่ำประจำปีของสมาคมผู้สื่อข่าวต่างประเทศแห่งประเทศไทย (FCCT) ณ ห้อง Grand Ballroom โรงแรม InterContinental Bangkok Hotel กรุงเทพฯ     วันจันทร์ ที่ ",
     "width": 5120,
     "height": 3413,
-    "score": 1,
+    "score": 5,
     "file": "photos/candidates/intercontinental-3.jpg",
     "saved_size": [
      1280,
@@ -1170,7 +1093,7 @@
    {
     "title": "File:JW Marriott Hotel Bangkok.jpg",
     "source": "wikidata",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/JW_Marriott_Hotel_Bangkok.jpg/1280px-JW_Marriott_Hotel_Bangkok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/JW_Marriott_Hotel_Bangkok.jpg/1280px-JW_Marriott_Hotel_Bangkok.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:JW_Marriott_Hotel_Bangkok.jpg",
     "artist": "Syced",
     "license": "CC0",
@@ -1179,53 +1102,15 @@
     "description": "JW Marriott Hotel Bangkok (hotel in Bangkok, Thailand)",
     "width": 3072,
     "height": 4080,
-    "score": 3,
+    "score": 5,
     "file": "photos/candidates/jw-marriott-1.jpg",
     "saved_size": [
      964,
      1280
     ]
-   },
-   {
-    "title": "File:Lobby of JW Marriott, Bangkok - panoramio.jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Lobby_of_JW_Marriott%2C_Bangkok_-_panoramio.jpg/1280px-Lobby_of_JW_Marriott%2C_Bangkok_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Lobby_of_JW_Marriott,_Bangkok_-_panoramio.jpg",
-    "artist": "Anil Kaushik",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "credit": "https://web.archive.org/web/20161014173752/http://www.panoramio.com/photo/31234312",
-    "description": "Lobby of JW Marriott, Bangkok",
-    "width": 3456,
-    "height": 2592,
-    "score": 1,
-    "file": "photos/candidates/jw-marriott-2.jpg",
-    "saved_size": [
-     1280,
-     960
-    ]
-   },
-   {
-    "title": "File:Breakfast @ open roof of JW Marriott, Bangkok - panoramio.jpg",
-    "source": "commons-search",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Breakfast_%40_open_roof_of_JW_Marriott%2C_Bangkok_-_panoramio.jpg/1280px-Breakfast_%40_open_roof_of_JW_Marriott%2C_Bangkok_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Breakfast_@_open_roof_of_JW_Marriott,_Bangkok_-_panoramio.jpg",
-    "artist": "Anil Kaushik",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-    "credit": "https://web.archive.org/web/20161014200334/http://www.panoramio.com/photo/31234184",
-    "description": "Breakfast @ open roof of JW Marriott, Bangkok",
-    "width": 3456,
-    "height": 2592,
-    "score": 1,
-    "file": "photos/candidates/jw-marriott-3.jpg",
-    "saved_size": [
-     1280,
-     960
-    ]
    }
   ],
-  "considered": 3
+  "considered": 1
  },
  "kromo": {
   "name": "KROMO Bangkok, Curio Collection by Hilton",
@@ -1266,25 +1151,6 @@
   "name": "Grand Hyatt Erawan Bangkok",
   "candidates": [
    {
-    "title": "File:Grand Hyatt Erawan, Bangkok.jpg",
-    "source": "wikipedia-article",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Grand_Hyatt_Erawan%2C_Bangkok.jpg/1280px-Grand_Hyatt_Erawan%2C_Bangkok.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Grand_Hyatt_Erawan,_Bangkok.jpg",
-    "artist": "Supanut Arunoprayote",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "credit": "Own work",
-    "description": "Grand Hyatt Erawan, Bangkok",
-    "width": 6000,
-    "height": 4000,
-    "score": 3,
-    "file": "photos/candidates/grand-hyatt-erawan-1.jpg",
-    "saved_size": [
-     1280,
-     853
-    ]
-   },
-   {
     "title": "File:Grand Hyatt Erawan Bangkok.JPG",
     "source": "commons-search",
     "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Grand_Hyatt_Erawan_Bangkok.JPG/1280px-Grand_Hyatt_Erawan_Bangkok.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -1296,25 +1162,44 @@
     "description": "Grand Hyatt Erawan Bangkok.",
     "width": 1600,
     "height": 1200,
-    "score": 3,
-    "file": "photos/candidates/grand-hyatt-erawan-2.jpg",
+    "score": 5,
+    "file": "photos/candidates/grand-hyatt-erawan-1.jpg",
     "saved_size": [
      1280,
      960
     ]
    },
    {
-    "title": "File:Grand Hyatt Bangkok Ratchadamri.jpg",
+    "title": "File:Grand Hyatt Erawan, Bangkok.jpg",
     "source": "wikipedia-article",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Grand_Hyatt_Bangkok_Ratchadamri.jpg/1280px-Grand_Hyatt_Bangkok_Ratchadamri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "page": "https://commons.wikimedia.org/wiki/File:Grand_Hyatt_Bangkok_Ratchadamri.jpg",
-    "artist": "UggBoy♥UggGirl",
-    "license": "CC BY 2.0",
-    "license_url": "https://creativecommons.org/licenses/by/2.0",
-    "credit": "https://www.flickr.com/photos/uggboy/4045306510/",
-    "description": "Grand Hyatt Bangkok, Thailand Ratchadamri",
-    "width": 3264,
-    "height": 2448,
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Grand_Hyatt_Erawan%2C_Bangkok.jpg/1280px-Grand_Hyatt_Erawan%2C_Bangkok.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Grand_Hyatt_Erawan,_Bangkok.jpg",
+    "artist": "Supanut Arunoprayote",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "description": "Grand Hyatt Erawan, Bangkok",
+    "width": 6000,
+    "height": 4000,
+    "score": 2,
+    "file": "photos/candidates/grand-hyatt-erawan-2.jpg",
+    "saved_size": [
+     1280,
+     853
+    ]
+   },
+   {
+    "title": "File:Erawan Shrine Bangkok 2021 May.jpg",
+    "source": "commons-search",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Erawan_Shrine_Bangkok_2021_May.jpg/1280px-Erawan_Shrine_Bangkok_2021_May.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Erawan_Shrine_Bangkok_2021_May.jpg",
+    "artist": "Chainwit.",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "credit": "Own work",
+    "description": "Erawan Shrine",
+    "width": 4032,
+    "height": 3024,
     "score": 2,
     "file": "photos/candidates/grand-hyatt-erawan-3.jpg",
     "saved_size": [
@@ -1323,7 +1208,7 @@
     ]
    }
   ],
-  "considered": 11
+  "considered": 3
  },
  "andaz-one-bangkok": {
   "name": "Andaz One Bangkok",
@@ -1331,7 +1216,7 @@
    {
     "title": "File:Andaz One Bangkok (2024-10-26) - img 02.jpg",
     "source": "wikipedia-article",
-    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Andaz_One_Bangkok_%282024-10-26%29_-_img_02.jpg/1280px-Andaz_One_Bangkok_%282024-10-26%29_-_img_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Andaz_One_Bangkok_%282024-10-26%29_-_img_02.jpg/1280px-Andaz_One_Bangkok_%282024-10-26%29_-_img_02.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Andaz_One_Bangkok_(2024-10-26)_-_img_02.jpg",
     "artist": "Chainwit.",
     "license": "CC BY 4.0",
@@ -1340,7 +1225,7 @@
     "description": "Andaz One Bangkok, a hotel in One Bangkok",
     "width": 3024,
     "height": 4032,
-    "score": 2,
+    "score": 4,
     "file": "photos/candidates/andaz-one-bangkok-1.jpg",
     "saved_size": [
      960,
@@ -1359,7 +1244,7 @@
     "description": "Andaz One Bangkok, a hotel in One Bangkok",
     "width": 3024,
     "height": 4032,
-    "score": 2,
+    "score": 4,
     "file": "photos/candidates/andaz-one-bangkok-2.jpg",
     "saved_size": [
      960,
@@ -1378,7 +1263,7 @@
     "description": "Andaz One Bangkok, a hotel in One Bangkok",
     "width": 3024,
     "height": 4032,
-    "score": 2,
+    "score": 4,
     "file": "photos/candidates/andaz-one-bangkok-3.jpg",
     "saved_size": [
      960,
@@ -1386,7 +1271,7 @@
     ]
    }
   ],
-  "considered": 26
+  "considered": 4
  },
  "137-pillars": {
   "name": "137 Pillars Suites Bangkok",

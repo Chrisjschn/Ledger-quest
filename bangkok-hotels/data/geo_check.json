@@ -3,7 +3,7 @@
   "name": "Mandarin Oriental, Bangkok",
   "ours": [
    13.7237,
-   100.5147
+   100.5144
   ],
   "sources": {
    "wikidata": {
@@ -43,17 +43,17 @@
    ]
   },
   "distance_m": {
-   "wikidata": 29,
-   "wikipedia": 29,
-   "nominatim": 62
+   "wikidata": 11,
+   "wikipedia": 11,
+   "nominatim": 34
   },
   "flag": false
  },
  "peninsula": {
   "name": "The Peninsula Bangkok",
   "ours": [
-   13.7231,
-   100.5117
+   13.7232,
+   100.5104
   ],
   "sources": {
    "wikidata": {
@@ -86,17 +86,17 @@
    ]
   },
   "distance_m": {
-   "wikidata": 573,
-   "wikipedia": 573,
-   "nominatim": 145
+   "wikidata": 695,
+   "wikipedia": 695,
+   "nominatim": 5
   },
   "flag": true
  },
  "four-seasons": {
   "name": "Four Seasons Hotel Bangkok at Chao Phraya River",
   "ours": [
-   13.7139,
-   100.5121
+   13.7119,
+   100.5103
   ],
   "sources": {
    "wikidata": {
@@ -129,16 +129,16 @@
    ]
   },
   "distance_m": {
-   "wikidata": 310,
-   "nominatim": 402
+   "wikidata": 22,
+   "nominatim": 697
   },
   "flag": true
  },
  "capella": {
   "name": "Capella Bangkok",
   "ours": [
-   13.712,
-   100.5116
+   13.7133,
+   100.5112
   ],
   "sources": {
    "wikidata": {
@@ -161,15 +161,15 @@
    ]
   },
   "distance_m": {
-   "nominatim": 149
+   "nominatim": 5
   },
   "flag": false
  },
  "the-siam": {
   "name": "The Siam",
   "ours": [
-   13.7796,
-   100.5064
+   13.7814,
+   100.5055
   ],
   "sources": {
    "wikidata": {
@@ -195,16 +195,16 @@
    ]
   },
   "distance_m": {
-   "wikidata": 212,
-   "nominatim": 233
+   "wikidata": 11,
+   "nominatim": 14
   },
   "flag": false
  },
  "park-hyatt": {
   "name": "Park Hyatt Bangkok",
   "ours": [
-   13.7439,
-   100.5462
+   13.7438,
+   100.547
   ],
   "sources": {
    "wikidata": {
@@ -237,17 +237,17 @@
    ]
   },
   "distance_m": {
-   "wikidata": 145,
-   "wikipedia": 25,
-   "nominatim": 101
+   "wikidata": 59,
+   "wikipedia": 63,
+   "nominatim": 19
   },
   "flag": false
  },
  "rosewood": {
   "name": "Rosewood Bangkok",
   "ours": [
-   13.7433,
-   100.5466
+   13.7435,
+   100.5493
   ],
   "sources": {
    "wikidata": {
@@ -280,17 +280,17 @@
    ]
   },
   "distance_m": {
-   "wikidata": 341,
-   "wikipedia": 341,
-   "nominatim": 260
+   "wikidata": 51,
+   "wikipedia": 51,
+   "nominatim": 33
   },
-  "flag": true
+  "flag": false
  },
  "waldorf-astoria": {
   "name": "Waldorf Astoria Bangkok",
   "ours": [
-   13.7441,
-   100.5397
+   13.7425,
+   100.5404
   ],
   "sources": {
    "wikidata": {
@@ -316,16 +316,16 @@
    ]
   },
   "distance_m": {
-   "wikidata": 184,
-   "nominatim": 213
+   "wikidata": 24,
+   "nominatim": 28
   },
   "flag": false
  },
  "anantara-siam": {
   "name": "Anantara Siam Bangkok Hotel",
   "ours": [
-   13.7424,
-   100.5402
+   13.7409,
+   100.5403
   ],
   "sources": {
    "wikidata": {
@@ -358,17 +358,17 @@
    ]
   },
   "distance_m": {
-   "wikidata": 175,
-   "wikipedia": 156,
-   "nominatim": 165
+   "wikidata": 8,
+   "wikipedia": 16,
+   "nominatim": 2
   },
   "flag": false
  },
  "st-regis": {
   "name": "The St. Regis Bangkok",
   "ours": [
-   13.7403,
-   100.54
+   13.7399,
+   100.5401
   ],
   "sources": {
    "wikidata": {
@@ -394,16 +394,16 @@
    ]
   },
   "distance_m": {
-   "wikidata": 46,
-   "nominatim": 45
+   "wikidata": 9,
+   "nominatim": 7
   },
   "flag": false
  },
  "siam-kempinski": {
   "name": "Siam Kempinski Hotel Bangkok",
   "ours": [
-   13.7477,
-   100.5352
+   13.7484,
+   100.5348
   ],
   "sources": {
    "wikidata": {
@@ -429,16 +429,16 @@
    ]
   },
   "distance_m": {
-   "wikidata": 77,
-   "nominatim": 102
+   "wikidata": 13,
+   "nominatim": 15
   },
   "flag": false
  },
  "kimpton-maa-lai": {
   "name": "Kimpton Maa-Lai Bangkok",
   "ours": [
-   13.739,
-   100.5443
+   13.7377,
+   100.5435
   ],
   "sources": {
    "wikidata": {
@@ -464,16 +464,16 @@
    ]
   },
   "distance_m": {
-   "wikidata": 180,
-   "nominatim": 171
+   "wikidata": 12,
+   "nominatim": 5
   },
   "flag": false
  },
  "sindhorn-kempinski": {
   "name": "Sindhorn Kempinski Hotel Bangkok",
   "ours": [
-   13.7382,
-   100.545
+   13.7369,
+   100.5438
   ],
   "sources": {
    "nominatim": [
@@ -487,7 +487,7 @@
    ]
   },
   "distance_m": {
-   "nominatim": 205
+   "nominatim": 12
   },
   "flag": false
  },
@@ -506,8 +506,8 @@
  "ritz-carlton": {
   "name": "The Ritz-Carlton, Bangkok",
   "ours": [
-   13.7278,
-   100.547
+   13.7281,
+   100.546
   ],
   "sources": {
    "wikipedia": {
@@ -528,16 +528,16 @@
    ]
   },
   "distance_m": {
-   "wikipedia": 74,
-   "nominatim": 146
+   "wikipedia": 172,
+   "nominatim": 34
   },
   "flag": false
  },
  "dusit-thani": {
   "name": "Dusit Thani Bangkok",
   "ours": [
-   13.7288,
-   100.5365
+   13.7283,
+   100.5373
   ],
   "sources": {
    "wikidata": {
@@ -577,17 +577,17 @@
    ]
   },
   "distance_m": {
-   "wikidata": 129,
-   "wikipedia": 94,
-   "nominatim": 12622
+   "wikidata": 26,
+   "wikipedia": 9,
+   "nominatim": 12523
   },
   "flag": true
  },
  "standard-mahanakhon": {
   "name": "The Standard, Bangkok Mahanakhon",
   "ours": [
-   13.7232,
-   100.5285
+   13.7235,
+   100.5284
   ],
   "sources": {
    "wikipedia": {
@@ -600,15 +600,15 @@
    "nominatim": []
   },
   "distance_m": {
-   "wikipedia": 49
+   "wikipedia": 14
   },
   "flag": false
  },
  "conrad": {
   "name": "Conrad Bangkok",
   "ours": [
-   13.738,
-   100.5478
+   13.7386,
+   100.5483
   ],
   "sources": {
    "wikidata": {
@@ -641,17 +641,17 @@
    ]
   },
   "distance_m": {
-   "wikidata": 59,
-   "wikipedia": 89,
-   "nominatim": 97
+   "wikidata": 27,
+   "wikipedia": 4,
+   "nominatim": 12
   },
   "flag": false
  },
  "so-bangkok": {
   "name": "SO/ Bangkok",
   "ours": [
-   13.7263,
-   100.542
+   13.7262,
+   100.5432
   ],
   "sources": {
    "wikidata": {
@@ -677,16 +677,16 @@
    ]
   },
   "distance_m": {
-   "wikidata": 129,
-   "nominatim": 122
+   "wikidata": 4,
+   "nominatim": 9
   },
   "flag": false
  },
  "intercontinental": {
   "name": "InterContinental Bangkok",
   "ours": [
-   13.7444,
-   100.5423
+   13.745,
+   100.5415
   ],
   "sources": {
    "wikidata": {
@@ -712,16 +712,16 @@
    ]
   },
   "distance_m": {
-   "wikidata": 99,
-   "nominatim": 132
+   "wikidata": 35,
+   "nominatim": 23
   },
   "flag": false
  },
  "jw-marriott": {
   "name": "JW Marriott Hotel Bangkok",
   "ours": [
-   13.741,
-   100.5533
+   13.7416,
+   100.5521
   ],
   "sources": {
    "wikidata": {
@@ -747,8 +747,8 @@
    ]
   },
   "distance_m": {
-   "wikidata": 141,
-   "nominatim": 148
+   "wikidata": 13,
+   "nominatim": 3
   },
   "flag": false
  },
@@ -793,8 +793,8 @@
  "sofitel-sukhumvit": {
   "name": "Sofitel Bangkok Sukhumvit",
   "ours": [
-   13.7405,
-   100.5569
+   13.7393,
+   100.5577
   ],
   "sources": {
    "wikidata": {
@@ -820,16 +820,16 @@
    ]
   },
   "distance_m": {
-   "wikidata": 169,
-   "nominatim": 155
+   "wikidata": 17,
+   "nominatim": 12
   },
   "flag": false
  },
  "grand-hyatt-erawan": {
   "name": "Grand Hyatt Erawan Bangkok",
   "ours": [
-   13.7443,
-   100.5408
+   13.7434,
+   100.5406
   ],
   "sources": {
    "wikidata": {
@@ -862,17 +862,17 @@
    ]
   },
   "distance_m": {
-   "wikidata": 111,
-   "wikipedia": 111,
-   "nominatim": 95
+   "wikidata": 9,
+   "wikipedia": 9,
+   "nominatim": 9
   },
   "flag": false
  },
  "andaz-one-bangkok": {
   "name": "Andaz One Bangkok",
   "ours": [
-   13.7264,
-   100.5474
+   13.7276,
+   100.5456
   ],
   "sources": {
    "wikipedia": {
@@ -893,16 +893,16 @@
    ]
   },
   "distance_m": {
-   "wikipedia": 90,
-   "nominatim": 244
+   "wikipedia": 189,
+   "nominatim": 12
   },
   "flag": false
  },
  "137-pillars": {
   "name": "137 Pillars Suites Bangkok",
   "ours": [
-   13.7346,
-   100.5726
+   13.7376,
+   100.5723
   ],
   "sources": {
    "wikidata": {
@@ -928,10 +928,10 @@
    ]
   },
   "distance_m": {
-   "wikidata": 339,
-   "nominatim": 335
+   "wikidata": 55,
+   "nominatim": 7
   },
-  "flag": true
+  "flag": false
  },
  "madi-paidi": {
   "name": "Madi Paidi Bangkok, Autograph Collection",

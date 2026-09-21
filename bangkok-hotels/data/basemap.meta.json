@@ -6,12 +6,12 @@
     100.645,
     13.825
   ],
-  "bytes": 1260541,
+  "bytes": 1568165,
   "counts": {
-    "water": 225,
+    "water": 230,
     "waterlines": 839,
-    "parks": 211,
-    "roads": 5119,
+    "parks": 213,
+    "roads": 6467,
     "rail": 14,
     "stations": 90
   }
