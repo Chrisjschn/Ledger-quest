@@ -405,7 +405,7 @@ function initMap() {
   map = L.map('map', { preferCanvas: true, zoomControl: false, attributionControl: false, minZoom: 11, maxZoom: 17, zoomSnap: 0.5, wheelPxPerZoomLevel: 90 });
   L.control.zoom({ position: 'bottomright' }).addTo(map);
   ['tiles', 'water', 'parks', 'roads', 'rail', 'stations', 'labels'].forEach((p, i) => { const pane = map.createPane(p); pane.style.zIndex = String(200 + i * 10); pane.style.pointerEvents = 'none'; });
-  map.setView([13.7360, 100.5420], 13);
+  map.setView([13.7345, 100.5440], window.matchMedia('(max-width: 899px)').matches ? 13 : 14);
   buildBase(); buildLabels();
   map.on('zoomend', onZoom);
   map.on('click', () => { if (ui.selected) closeDrawer(); });
@@ -425,8 +425,8 @@ function fitAll(force) {
 }
 function markerHTML(h) {
   const l = latest(h.id);
-  const txt = l ? money(l.usd) : h.program;
-  return `<div class="pin-inner"><span class="pd"></span>${esc(txt)}</div>`;
+  if (!l) return `<div class="pin-dot" title="${esc(h.name)}"></div>`;
+  return `<div class="pin-inner"><span class="pd"></span>${esc(money(l.usd))}</div>`;
 }
 function renderMarkers() {
   if (!map) return;
@@ -435,7 +435,7 @@ function renderMarkers() {
   vis.forEach((h) => {
     if (h.lat == null || h.lng == null) return;
     seen.add(h.id);
-    const cls = ['pin', h.program, h.ov.star ? 'star' : '', h.ov.hidden ? 'dim' : '', ui.selected === h.id ? 'sel' : '', ui.hover === h.id ? 'hover' : ''].filter(Boolean).join(' ');
+    const cls = ['pin', h.program, latest(h.id) ? 'priced' : 'dot', h.ov.star ? 'star' : '', h.ov.hidden ? 'dim' : '', ui.selected === h.id ? 'sel' : '', ui.hover === h.id ? 'hover' : ''].filter(Boolean).join(' ');
     const icon = L.divIcon({ className: cls, html: markerHTML(h), iconSize: [0, 0], iconAnchor: [0, 0] });
     let m = markers[h.id];
     if (!m) {
@@ -447,10 +447,9 @@ function renderMarkers() {
       m.setIcon(icon); m.setLatLng([h.lat, h.lng]);
       if (!map.hasLayer(m)) m.addTo(map);
     }
-    m.setZIndexOffset(ui.selected === h.id ? 2000 : ui.hover === h.id ? 1500 : h.ov.star ? 500 : 0);
+    m.setZIndexOffset(ui.selected === h.id ? 2000 : ui.hover === h.id ? 1500 : latest(h.id) ? 800 : h.ov.star ? 500 : 0);
   });
   Object.entries(markers).forEach(([id, m]) => { if (!seen.has(id) && map.hasLayer(m)) map.removeLayer(m); });
-  fitAll(false);
 }
 function setHover(id) {
   if (ui.hover === id) return;
@@ -750,20 +749,29 @@ function parsePaste(text, opts) {
     if (cur) cur.lines.push(l);
   }
   const priceRe = /(US\$|USD|\$|฿|THB)\s?(\d{1,3}(?:,\d{3})+|\d+)(?:\.\d{1,2})?|(\d{1,3}(?:,\d{3})+|\d{3,6})(?:\.\d{1,2})?\s?(USD|THB|baht)\b/gi;
+  const EXCLUDE = /credit|value|save|saving|\bwas\b|\boff\b|points|%|resort fee|\btax|deposit|per person|upgrade|dining|spa\b|breakfast/;
   const rows = []; const seen = new Set();
   for (const b of blocks) {
-    const body = b.lines.slice(0, 45).join('\n');
-    const cands = []; let m; priceRe.lastIndex = 0;
-    while ((m = priceRe.exec(body))) {
-      const sym = (m[1] || m[4] || '').toUpperCase(); const val = Number((m[2] || m[3]).replace(/,/g, ''));
-      const cur2 = /THB|฿|BAHT/.test(sym) ? 'THB' : /USD|\$/.test(sym) ? 'USD' : opts.cur;
-      const before = body.slice(Math.max(0, m.index - 45), m.index).toLowerCase(); const after = body.slice(m.index + m[0].length, m.index + m[0].length + 45).toLowerCase();
-      if (/credit|value|save|saving|\bwas\b|\boff\b|points|%|resort fee|tax|deposit|per person|upgrade|dining|spa/.test(before + ' | ' + after)) continue;
-      let kind = 'unknown';
-      if (/per night|\/\s?night|nightly|a night|\/nt\b|avg|average/.test(after) || /avg|average|\bfrom\b/.test(before)) kind = 'night';
-      else if (/total|for \d+ nights|incl|including/.test(after) || /total/.test(before)) kind = 'total';
-      cands.push({ val, cur: cur2, kind });
-    }
+    const bl = b.lines.slice(0, 45);
+    const cands = [];
+    bl.forEach((line, li) => {
+      const next = (bl[li + 1] || '').toLowerCase(), prevLine = (bl[li - 1] || '').toLowerCase();
+      let m; priceRe.lastIndex = 0;
+      while ((m = priceRe.exec(line))) {
+        const sym = (m[1] || m[4] || '').toUpperCase(); const val = Number((m[2] || m[3]).replace(/,/g, ''));
+        const cur2 = /THB|฿|BAHT/.test(sym) ? 'THB' : /USD|\$/.test(sym) ? 'USD' : opts.cur;
+        const sameBefore = line.slice(0, m.index).toLowerCase(), sameAfter = line.slice(m.index + m[0].length).toLowerCase();
+        const lonely = !sameBefore.trim() && !sameAfter.trim();      // the price sits on its own line
+        const exclCtx = sameBefore + ' | ' + sameAfter + (lonely ? ' | ' + next : '');
+        if (EXCLUDE.test(exclCtx)) continue;
+        const kindCtx = sameAfter + ' | ' + (lonely ? next : '');
+        let kind = 'unknown';
+        if (/per night|\/\s?night|nightly|a night|\/nt\b|avg|average/.test(kindCtx) || /avg|average|\bfrom\b|per night|nightly/.test(sameBefore + ' ' + (lonely ? prevLine : ''))) kind = 'night';
+        else if (/total|for \d+ nights|incl|including/.test(kindCtx) || /total/.test(sameBefore + ' ' + (lonely ? prevLine : ''))) kind = 'total';
+        cands.push({ val, cur: cur2, kind });
+      }
+    });
+    const body = bl.join('\n');
     const soldOut = /sold out|unavailable|no availability|not available|no rooms/i.test(body);
     const plausible = (c) => (c.cur === 'THB' ? c.val >= 1500 : c.val >= 60);
     const pick = cands.find((c) => c.kind === 'night' && plausible(c)) || cands.find((c) => c.kind === 'unknown' && plausible(c)) || cands.find((c) => c.kind === 'total' && plausible(c)) || null;

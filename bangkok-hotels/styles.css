@@ -202,6 +202,10 @@ kbd { font-family: var(--font-mono); font-size: 12px; padding: 1px 5px; border: 
 .side > section { padding: 14px 16px 40px; display: flex; flex-direction: column; gap: 12px; }
 .tab-map-only { display: none; }
 @media (max-width: 899px) {
+  .topbar { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; grid-template-areas: "brand sync gear" "trip trip trip" "tabs tabs tabs"; gap: 6px 8px; padding: 8px 12px; }
+  .brand { grid-area: brand; } .sync { grid-area: sync; } #btn-settings { grid-area: gear; } .trip { grid-area: trip; } .tabs { grid-area: tabs; }
+  .topbar .spacer { display: none; }
+  .sync .t { display: none; }
   .main { grid-template-columns: 1fr; }
   .side { border-left: 0; }
   .pane:not(.on) { display: none; }
@@ -217,7 +221,7 @@ kbd { font-family: var(--font-mono); font-size: 12px; padding: 1px 5px; border: 
 /* ---------- map ---------- */
 .map-ui { position: absolute; left: 12px; top: 12px; z-index: 500; display: flex; gap: 6px; flex-wrap: wrap; max-width: calc(100% - 24px); }
 .map-ui .chip { box-shadow: var(--shadow); }
-.map-attrib { position: absolute; right: 8px; bottom: 6px; z-index: 500; font-size: 10.5px; color: var(--ink-3); background: var(--map-halo); padding: 2px 6px; border-radius: 4px; }
+.map-attrib { position: absolute; right: 54px; bottom: 6px; z-index: 500; font-size: 10.5px; color: var(--ink-3); background: var(--map-halo); padding: 2px 6px; border-radius: 4px; }
 .map-attrib a { color: inherit; }
 .map-legend { position: absolute; left: 12px; bottom: 12px; z-index: 500; display: flex; gap: 10px; flex-wrap: wrap; font-size: 12px; color: var(--ink-2); background: var(--map-halo); padding: 6px 10px; border-radius: 8px; }
 .map-legend .sw { display: inline-block; width: 10px; height: 10px; border-radius: 3px; vertical-align: -1px; margin-right: 4px; }
@@ -256,6 +260,13 @@ kbd { font-family: var(--font-mono); font-size: 12px; padding: 1px 5px; border: 
 .pin.sel .pin-inner { background: var(--ink); color: var(--bg); border-color: var(--ink); transform: translate(-50%, calc(-100% - 6px)) scale(1.08); }
 .pin.sel .pin-inner::after { border-color: var(--ink); }
 .pin.hover .pin-inner { transform: translate(-50%, calc(-100% - 6px)) scale(1.08); border-color: var(--accent); }
+.pin-dot { position: absolute; left: 0; top: 0; width: 14px; height: 14px; border-radius: 50%; transform: translate(-50%, -50%); background: var(--ink-3); border: 2px solid var(--surface); box-shadow: 0 1px 3px rgba(0,0,0,.35); cursor: pointer; transition: transform .12s ease; }
+.pin.FHR .pin-dot { background: var(--fhr); }
+.pin.THC .pin-dot { background: var(--thc); }
+.pin.star .pin-dot { box-shadow: 0 0 0 2px var(--fhr), 0 1px 3px rgba(0,0,0,.35); }
+.pin.dim .pin-dot { opacity: .45; }
+.pin.hover .pin-dot, .pin.sel .pin-dot { transform: translate(-50%, -50%) scale(1.35); }
+.pin.sel .pin-dot { box-shadow: 0 0 0 3px var(--ink), 0 1px 3px rgba(0,0,0,.35); }
 
 /* ---------- hotel cards ---------- */
 .filters { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
