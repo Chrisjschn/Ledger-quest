@@ -175,6 +175,17 @@
    "source": "wikipedia-article",
    "width": 825,
    "height": 1100
+  },
+  "ritz-carlton": {
+   "file": "photos/ritz-carlton.jpg",
+   "title": "File:The Ritz Carlton, Bangkok - One Bangkok (2024-10-26) - img 03.jpg",
+   "artist": "Chainwit.",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "page": "https://commons.wikimedia.org/wiki/File:The_Ritz_Carlton,_Bangkok_-_One_Bangkok_(2024-10-26)_-_img_03.jpg",
+   "source": "commons-search",
+   "width": 825,
+   "height": 1100
   }
  }
 }
