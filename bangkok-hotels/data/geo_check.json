@@ -1,0 +1,948 @@
+{
+ "mandarin-oriental": {
+  "name": "Mandarin Oriental, Bangkok",
+  "ours": [
+   13.7237,
+   100.5147
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q1631000",
+    "label": "Mandarin Oriental, Bangkok",
+    "description": "five-star hotel in Bangkok, Thailand",
+    "coords": [
+     13.723611,
+     100.514444
+    ],
+    "image": "MO Bangkok exterior.jpg",
+    "official": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river",
+    "enwiki": "Mandarin Oriental, Bangkok"
+   },
+   "wikipedia": {
+    "title": "Mandarin Oriental, Bangkok",
+    "coords": [
+     13.72361111,
+     100.51444444
+    ]
+   },
+   "nominatim": [
+    {
+     "lat": 13.7238854,
+     "lon": 100.5141549,
+     "name": "Mandarin Oriental Hotel, 48, เขตบางรัก, กรุงเทพมหานคร, 10500, ประเทศไทย",
+     "type": "resort",
+     "cls": "leisure"
+    },
+    {
+     "lat": 13.7235931,
+     "lon": 100.514246,
+     "name": "Le Normandie, 48, ซอยเจริญกรุง 40, แขวงบางรัก, เขตบางรัก, กรุงเทพมหานคร, 10500, ประเทศไทย",
+     "type": "restaurant",
+     "cls": "amenity"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 29,
+   "wikipedia": 29,
+   "nominatim": 62
+  },
+  "flag": false
+ },
+ "peninsula": {
+  "name": "The Peninsula Bangkok",
+  "ours": [
+   13.7231,
+   100.5117
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q7756548",
+    "label": "The Peninsula Bangkok",
+    "description": "luxury hotel in Bangkok, Thailand",
+    "coords": [
+     13.725556,
+     100.516361
+    ],
+    "image": "The Peninsula Bangkok.JPG",
+    "official": null,
+    "enwiki": "The Peninsula Bangkok"
+   },
+   "wikipedia": {
+    "title": "The Peninsula Bangkok",
+    "coords": [
+     13.72555556,
+     100.51636111
+    ]
+   },
+   "nominatim": [
+    {
+     "lat": 13.7232197,
+     "lon": 100.5103607,
+     "name": "โรงแรมเพนนินซูลา, ซอยเจริญนคร 11, แขวงคลองต้นไทร, เขตคลองสาน, กรุงเทพมหานคร, 10600, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 573,
+   "wikipedia": 573,
+   "nominatim": 145
+  },
+  "flag": true
+ },
+ "four-seasons": {
+  "name": "Four Seasons Hotel Bangkok at Chao Phraya River",
+  "ours": [
+   13.7139,
+   100.5121
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q112004772",
+    "label": "Four Seasons Hotel Bangkok at Chao Phraya River",
+    "description": "hotel in Bangkok, Thailand",
+    "coords": [
+     13.7119,
+     100.5101
+    ],
+    "image": null,
+    "official": null,
+    "enwiki": null
+   },
+   "nominatim": [
+    {
+     "lat": 13.7167888,
+     "lon": 100.5143333,
+     "name": "ถนนเจริญกรุง, แขวงยานนาวา, เขตสาทร, กรุงเทพมหานคร, 10120, ประเทศไทย",
+     "type": "secondary",
+     "cls": "highway"
+    },
+    {
+     "lat": 13.7185591,
+     "lon": 100.5151077,
+     "name": "ถนนเจริญกรุง, แขวงบางรัก, เขตบางรัก, กรุงเทพมหานคร, 10500, ประเทศไทย",
+     "type": "secondary",
+     "cls": "highway"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 310,
+   "nominatim": 402
+  },
+  "flag": true
+ },
+ "capella": {
+  "name": "Capella Bangkok",
+  "ours": [
+   13.712,
+   100.5116
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q130425967",
+    "label": "Capella Bangkok",
+    "description": "hotel in Bangkok, Thailand",
+    "coords": null,
+    "image": null,
+    "official": null,
+    "enwiki": "Capella Bangkok"
+   },
+   "nominatim": [
+    {
+     "lat": 13.7132727,
+     "lon": 100.5111616,
+     "name": "Capella, ซอยเจริญกรุง 62, แขวงยานนาวา, เขตสาทร, กรุงเทพมหานคร, 10120, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "nominatim": 149
+  },
+  "flag": false
+ },
+ "the-siam": {
+  "name": "The Siam",
+  "ours": [
+   13.7796,
+   100.5064
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q66426721",
+    "label": "The Siam",
+    "description": "hotel in Bangkok",
+    "coords": [
+     13.781329,
+     100.505574
+    ],
+    "image": null,
+    "official": "http://www.thesiamhotel.com/",
+    "enwiki": null
+   },
+   "nominatim": [
+    {
+     "lat": 13.7814475,
+     "lon": 100.5053826,
+     "name": "The Siam, ถนนสังคโลก, ชุมชนท่าน้ำสามเสน, แขวงวชิรพยาบาล, เขตดุสิต, กรุงเทพมหานคร, 10300, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 212,
+   "nominatim": 233
+  },
+  "flag": false
+ },
+ "park-hyatt": {
+  "name": "Park Hyatt Bangkok",
+  "ours": [
+   13.7439,
+   100.5462
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q111403155",
+    "label": "Park Hyatt Bangkok",
+    "description": "hotel in Bangkok, Thailand",
+    "coords": [
+     13.74358,
+     100.5475
+    ],
+    "image": null,
+    "official": null,
+    "enwiki": null
+   },
+   "wikipedia": {
+    "title": "Central Embassy",
+    "coords": [
+     13.74382222,
+     100.54641389
+    ]
+   },
+   "nominatim": [
+    {
+     "lat": 13.7438989,
+     "lon": 100.5471378,
+     "name": "Park Hyatt Bangkok, 88, ถนนวิทยุ, หลังสวน, แขวงลุมพินี, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 145,
+   "wikipedia": 25,
+   "nominatim": 101
+  },
+  "flag": false
+ },
+ "rosewood": {
+  "name": "Rosewood Bangkok",
+  "ours": [
+   13.7433,
+   100.5466
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q55631993",
+    "label": "Rosewood Bangkok",
+    "description": "Thai hotel",
+    "coords": [
+     13.74338,
+     100.54976
+    ],
+    "image": "Rosewood Bangkok 2021.jpg",
+    "official": "https://www.rosewoodhotels.com/en/bangkok",
+    "enwiki": "Rosewood Bangkok"
+   },
+   "wikipedia": {
+    "title": "Rosewood Bangkok",
+    "coords": [
+     13.74338,
+     100.54976
+    ]
+   },
+   "nominatim": [
+    {
+     "lat": 13.7435351,
+     "lon": 100.548994,
+     "name": "Rosewood Bangkok, 1037/1, ถนนเพลินจิต, หลังสวน, แขวงลุมพินี, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 341,
+   "wikipedia": 341,
+   "nominatim": 260
+  },
+  "flag": true
+ },
+ "waldorf-astoria": {
+  "name": "Waldorf Astoria Bangkok",
+  "ours": [
+   13.7441,
+   100.5397
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q111403186",
+    "label": "Waldorf Astoria Bangkok",
+    "description": "hotel in Bangkok, Thailand",
+    "coords": [
+     13.742513,
+     100.54018
+    ],
+    "image": null,
+    "official": "https://www.hilton.com/en/hotels/bkkwawa-waldorf-astoria-bangkok/",
+    "enwiki": null
+   },
+   "nominatim": [
+    {
+     "lat": 13.7424218,
+     "lon": 100.5406423,
+     "name": "Waldorf Astoria Bangkok, 151, ถนนราชดำริ, แขวงลุมพินี, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 184,
+   "nominatim": 213
+  },
+  "flag": false
+ },
+ "anantara-siam": {
+  "name": "Anantara Siam Bangkok Hotel",
+  "ours": [
+   13.7424,
+   100.5402
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q21479774",
+    "label": "Anantara Siam Bangkok Hotel",
+    "description": "hotel in the Siam district of Central Bangkok, Thailand",
+    "coords": [
+     13.74083,
+     100.54028
+    ],
+    "image": "Anantara Siam Bangkok Hotel bell.jpg",
+    "official": "https://www.anantara.com/en/siam-bangkok",
+    "enwiki": "Anantara Siam Bangkok Hotel"
+   },
+   "wikipedia": {
+    "title": "Anantara Siam Bangkok Hotel",
+    "coords": [
+     13.741,
+     100.5402
+    ]
+   },
+   "nominatim": [
+    {
+     "lat": 13.7409187,
+     "lon": 100.5403109,
+     "name": "Anantara Siam Bangkok Hotel, 155, ถนนราชดำริ, แขวงลุมพินี, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 175,
+   "wikipedia": 156,
+   "nominatim": 165
+  },
+  "flag": false
+ },
+ "st-regis": {
+  "name": "The St. Regis Bangkok",
+  "ours": [
+   13.7403,
+   100.54
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q111403204",
+    "label": "The St Regis Bangkok - Sha Extra Plus",
+    "description": "hotel in Bangkok, Thailand",
+    "coords": [
+     13.739924416,
+     100.5401828885
+    ],
+    "image": null,
+    "official": null,
+    "enwiki": null
+   },
+   "nominatim": [
+    {
+     "lat": 13.739895,
+     "lon": 100.5400333,
+     "name": "The St. Regis Bangkok, 159, ทางเชื่อมโรงแรม The St. Regis Bangkok, มหาดเล็กหลวง, แขวงลุมพินี, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 46,
+   "nominatim": 45
+  },
+  "flag": false
+ },
+ "siam-kempinski": {
+  "name": "Siam Kempinski Hotel Bangkok",
+  "ours": [
+   13.7477,
+   100.5352
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q111403150",
+    "label": "Siam Kempinski Hotel Bangkok",
+    "description": "hotel in Bangkok, Thailand",
+    "coords": [
+     13.74829,
+     100.53483
+    ],
+    "image": null,
+    "official": null,
+    "enwiki": null
+   },
+   "nominatim": [
+    {
+     "lat": 13.7485359,
+     "lon": 100.5348187,
+     "name": "สยามเคมปินสกี้, ถนนหลังวัดปทุมวนาราม, สยาม, แขวงปทุมวัน, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 77,
+   "nominatim": 102
+  },
+  "flag": false
+ },
+ "kimpton-maa-lai": {
+  "name": "Kimpton Maa-Lai Bangkok",
+  "ours": [
+   13.739,
+   100.5443
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q111862994",
+    "label": "Kimpton Maa-Lai Bangkok",
+    "description": "hotel in Bangkok, Thailand",
+    "coords": [
+     13.7376019,
+     100.5434526
+    ],
+    "image": "Kimpton Maa-Lai Bangkok, an IHG Hotel - SHA Extra Plus.jpg",
+    "official": null,
+    "enwiki": null
+   },
+   "nominatim": [
+    {
+     "lat": 13.7376636,
+     "lon": 100.5435195,
+     "name": "Kimpton Maa-Lai, ถนนหลังสวน, หลังสวน, แขวงลุมพินี, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 180,
+   "nominatim": 171
+  },
+  "flag": false
+ },
+ "sindhorn-kempinski": {
+  "name": "Sindhorn Kempinski Hotel Bangkok",
+  "ours": [
+   13.7382,
+   100.545
+  ],
+  "sources": {
+   "nominatim": [
+    {
+     "lat": 13.7368618,
+     "lon": 100.5436994,
+     "name": "Sindhorn Kempinski Hotel, ซอยต้นสน, หลังสวน, แขวงลุมพินี, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "nominatim": 205
+  },
+  "flag": false
+ },
+ "aman-nai-lert": {
+  "name": "Aman Nai Lert Bangkok",
+  "ours": [
+   13.7447,
+   100.5483
+  ],
+  "sources": {
+   "nominatim": []
+  },
+  "distance_m": {},
+  "flag": false
+ },
+ "ritz-carlton": {
+  "name": "The Ritz-Carlton, Bangkok",
+  "ours": [
+   13.7278,
+   100.547
+  ],
+  "sources": {
+   "wikipedia": {
+    "title": "One Bangkok",
+    "coords": [
+     13.7272,
+     100.5473
+    ]
+   },
+   "nominatim": [
+    {
+     "lat": 13.7282651,
+     "lon": 100.5457378,
+     "name": "The Ritz-Carlton, One Bangkok Boulevard, One Bangkok, แขวงลุมพินี, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikipedia": 74,
+   "nominatim": 146
+  },
+  "flag": false
+ },
+ "dusit-thani": {
+  "name": "Dusit Thani Bangkok",
+  "ours": [
+   13.7288,
+   100.5365
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q6673698",
+    "label": "Dusit Thani Bangkok",
+    "description": "Complete rebuilt of the landmark Hotel Dusit Thani Bangkok Hotel in Bangkok,Thailand just reopened",
+    "coords": [
+     13.72816667,
+     100.5375
+    ],
+    "image": null,
+    "official": null,
+    "enwiki": "Dusit Thani Bangkok"
+   },
+   "wikipedia": {
+    "title": "Dusit Thani Bangkok",
+    "coords": [
+     13.72833333,
+     100.53722222
+    ]
+   },
+   "nominatim": [
+    {
+     "lat": 13.6973063,
+     "lon": 100.6487544,
+     "name": "วิทยาลัยดุสิตธานี กรุงเทพ, ซอยศรีนครินทร์ 49, แขวงหนองบอน, เขตประเวศ, กรุงเทพมหานคร, 10250, ประเทศไทย",
+     "type": "college",
+     "cls": "amenity"
+    },
+    {
+     "lat": 13.7268878,
+     "lon": 100.536137,
+     "name": "บ้านดุสิตธานี, แขวงสีลม, เขตบางรัก, กรุงเทพมหานคร, 10500, ประเทศไทย",
+     "type": "commercial",
+     "cls": "landuse"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 129,
+   "wikipedia": 94,
+   "nominatim": 12622
+  },
+  "flag": true
+ },
+ "standard-mahanakhon": {
+  "name": "The Standard, Bangkok Mahanakhon",
+  "ours": [
+   13.7232,
+   100.5285
+  ],
+  "sources": {
+   "wikipedia": {
+    "title": "King Power Mahanakhon",
+    "coords": [
+     13.72361111,
+     100.52833333
+    ]
+   },
+   "nominatim": []
+  },
+  "distance_m": {
+   "wikipedia": 49
+  },
+  "flag": false
+ },
+ "conrad": {
+  "name": "Conrad Bangkok",
+  "ours": [
+   13.738,
+   100.5478
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q11303288",
+    "label": "Conrad Bangkok",
+    "description": "hotel in Bangkok, Thailand",
+    "coords": [
+     13.738416666666666,
+     100.54813888888889
+    ],
+    "image": null,
+    "official": "https://www.hilton.com/en/hotels/bkkcici-conrad-bangkok/",
+    "enwiki": "Conrad Bangkok"
+   },
+   "wikipedia": {
+    "title": "Conrad Bangkok",
+    "coords": [
+     13.73861111,
+     100.54833333
+    ]
+   },
+   "nominatim": [
+    {
+     "lat": 13.7386527,
+     "lon": 100.5483923,
+     "name": "Conrad Bangkok, 87/3, ถนนวิทยุ, วิทยุ, แขวงลุมพินี, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 59,
+   "wikipedia": 89,
+   "nominatim": 97
+  },
+  "flag": false
+ },
+ "so-bangkok": {
+  "name": "SO/ Bangkok",
+  "ours": [
+   13.7263,
+   100.542
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q111403234",
+    "label": "SO/ Bangkok",
+    "description": "hotel in Bangkok, Thailand",
+    "coords": [
+     13.72623,
+     100.54319
+    ],
+    "image": null,
+    "official": null,
+    "enwiki": null
+   },
+   "nominatim": [
+    {
+     "lat": 13.7262437,
+     "lon": 100.543125,
+     "name": "So/ Bangkok, 2, ถนนสาทรเหนือ, แขวงสีลม, เขตบางรัก, กรุงเทพมหานคร, 10500, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 129,
+   "nominatim": 122
+  },
+  "flag": false
+ },
+ "intercontinental": {
+  "name": "InterContinental Bangkok",
+  "ours": [
+   13.7444,
+   100.5423
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q111403164",
+    "label": "InterContinental Bangkok",
+    "description": "hotel in Bangkok, Thailand",
+    "coords": [
+     13.744695,
+     100.541435
+    ],
+    "image": "InterContinental Bangkok, an Ihg Hotel.jpg",
+    "official": null,
+    "enwiki": null
+   },
+   "nominatim": [
+    {
+     "lat": 13.7451467,
+     "lon": 100.5413501,
+     "name": "InterContinental Bangkok, 973, ถนนเพลินจิต, ราชประสงค์, แขวงปทุมวัน, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 99,
+   "nominatim": 132
+  },
+  "flag": false
+ },
+ "jw-marriott": {
+  "name": "JW Marriott Hotel Bangkok",
+  "ours": [
+   13.741,
+   100.5533
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q11226739",
+    "label": "JW Marriott Hotel Bangkok",
+    "description": "hotel in Bangkok, Thailand",
+    "coords": [
+     13.741484,
+     100.55209
+    ],
+    "image": "JW Marriott Hotel Bangkok.jpg",
+    "official": "http://www.jwmarriottbangkok.com/",
+    "enwiki": null
+   },
+   "nominatim": [
+    {
+     "lat": 13.7416013,
+     "lon": 100.5520735,
+     "name": "JW Marriott, 4, ถนนสุขุมวิท, แขวงคลองเตย, เขตคลองเตย, กรุงเทพมหานคร, 10110, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 141,
+   "nominatim": 148
+  },
+  "flag": false
+ },
+ "kromo": {
+  "name": "KROMO Bangkok, Curio Collection by Hilton",
+  "ours": [
+   13.7366,
+   100.566
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q136463240",
+    "label": "KROMO Bangkok, Curio Collection by Hilton",
+    "description": "5-star hotel in Bangkok",
+    "coords": [
+     13.733975,
+     100.565338
+    ],
+    "image": null,
+    "official": "https://www.hilton.com/en/hotels/bkkqqqq-kromo/",
+    "enwiki": null
+   },
+   "nominatim": []
+  },
+  "distance_m": {
+   "wikidata": 301
+  },
+  "flag": true
+ },
+ "como-metropolitan": {
+  "name": "COMO Metropolitan Bangkok",
+  "ours": [
+   13.7233,
+   100.5398
+  ],
+  "sources": {
+   "nominatim": []
+  },
+  "distance_m": {},
+  "flag": false
+ },
+ "sofitel-sukhumvit": {
+  "name": "Sofitel Bangkok Sukhumvit",
+  "ours": [
+   13.7405,
+   100.5569
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q111403166",
+    "label": "Sofitel Bangkok Sukhumvit",
+    "description": "hotel in Bangkok, Thailand",
+    "coords": [
+     13.739163,
+     100.55764
+    ],
+    "image": null,
+    "official": null,
+    "enwiki": null
+   },
+   "nominatim": [
+    {
+     "lat": 13.7393928,
+     "lon": 100.5577646,
+     "name": "Sofitel Bangkok Sukhumvit, ถนนสุขุมวิท, สมาหาร, แขวงคลองเตย, เขตคลองเตย, กรุงเทพมหานคร, 10110, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 169,
+   "nominatim": 155
+  },
+  "flag": false
+ },
+ "grand-hyatt-erawan": {
+  "name": "Grand Hyatt Erawan Bangkok",
+  "ours": [
+   13.7443,
+   100.5408
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q11300359",
+    "label": "Grand Hyatt Erawan Bangkok",
+    "description": "Hotel in Thailand",
+    "coords": [
+     13.743333333333332,
+     100.54055555555556
+    ],
+    "image": "Grand Hyatt Erawan, Bangkok.jpg",
+    "official": null,
+    "enwiki": "Grand Hyatt Erawan Bangkok"
+   },
+   "wikipedia": {
+    "title": "Grand Hyatt Erawan Bangkok",
+    "coords": [
+     13.74333333,
+     100.54055556
+    ]
+   },
+   "nominatim": [
+    {
+     "lat": 13.7434589,
+     "lon": 100.5406606,
+     "name": "Grand Hyatt Erawan, ถนนราชดำริ, แขวงลุมพินี, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 111,
+   "wikipedia": 111,
+   "nominatim": 95
+  },
+  "flag": false
+ },
+ "andaz-one-bangkok": {
+  "name": "Andaz One Bangkok",
+  "ours": [
+   13.7264,
+   100.5474
+  ],
+  "sources": {
+   "wikipedia": {
+    "title": "One Bangkok",
+    "coords": [
+     13.7272,
+     100.5473
+    ]
+   },
+   "nominatim": [
+    {
+     "lat": 13.7275785,
+     "lon": 100.545491,
+     "name": "ANdAZ, One Bangkok Boulevard, One Bangkok, แขวงลุมพินี, เขตปทุมวัน, กรุงเทพมหานคร, 10330, ประเทศไทย",
+     "type": "hotel",
+     "cls": "tourism"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikipedia": 90,
+   "nominatim": 244
+  },
+  "flag": false
+ },
+ "137-pillars": {
+  "name": "137 Pillars Suites Bangkok",
+  "ours": [
+   13.7346,
+   100.5726
+  ],
+  "sources": {
+   "wikidata": {
+    "id": "Q111862958",
+    "label": "137 Pillars Suites Bangkok",
+    "description": "hotel in Bangkok, Thailand",
+    "coords": [
+     13.73755,
+     100.57179
+    ],
+    "image": null,
+    "official": null,
+    "enwiki": null
+   },
+   "nominatim": [
+    {
+     "lat": 13.7376003,
+     "lon": 100.5723605,
+     "name": "137 Pillars Suites, 59/1, 137 Pillars Suites & Residences Rd, แขวงคลองตันเหนือ, เขตวัฒนา, กรุงเทพมหานคร, 10110, ประเทศไทย",
+     "type": "apartments",
+     "cls": "building"
+    }
+   ]
+  },
+  "distance_m": {
+   "wikidata": 339,
+   "nominatim": 335
+  },
+  "flag": true
+ },
+ "madi-paidi": {
+  "name": "Madi Paidi Bangkok, Autograph Collection",
+  "ours": [
+   13.7257,
+   100.5779
+  ],
+  "sources": {
+   "nominatim": []
+  },
+  "distance_m": {},
+  "flag": false
+ }
+}

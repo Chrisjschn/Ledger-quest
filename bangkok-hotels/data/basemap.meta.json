@@ -1,0 +1,18 @@
+{
+  "generated": "2026-09-21",
+  "bbox": [
+    100.455,
+    13.665,
+    100.645,
+    13.825
+  ],
+  "bytes": 1934430,
+  "counts": {
+    "water": 999,
+    "waterlines": 839,
+    "parks": 2749,
+    "roads": 5119,
+    "rail": 14,
+    "stations": 90
+  }
+}
